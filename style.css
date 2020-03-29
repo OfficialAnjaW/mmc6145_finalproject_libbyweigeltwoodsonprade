@@ -1,8 +1,8 @@
 /*
-  Theme Name: MMC6145 Assignment 2
+  Theme Name: Trucks & Parts by LWW Inc.
   Theme URI:
-  Author: Anja Weigelt
-  Description: This is a WordPress theme for MMC6145 Assignment 2.
+  Author: Libby-Weigelt-WoodsonPrade Collaboration
+  Description: This is a WordPress theme for Trucks & Parts
   Version: 1.0
   License: Open
   Text Domain: assignment_theme
@@ -14,33 +14,7 @@
 
 ======================== */
 
-body {
-  font-family: 'Quicksand', sans-serif;
-}
 
-h2 {
-  color: #007236;
-  font-weight: 600;
-}
-
-h3 {
-  color: #007236;
-  font-weight: 600;
-}
-
-h5 {
-  color: #007236;
-  font-weight: 600;
-}
-
-.btn {
-  background: #007236;
-  border: none;
-}
-
-.btn:hover {
-  background: #a1490c;
-}
 
 /* ======================
 
@@ -48,61 +22,15 @@ h5 {
 
 ======================== */
 
-header {
-  background: #dcd3c0;
-}
 
-header img {
-  max-width: 225px;
-  object-fit: contain;
-}
-
-.top-menu-class a {
-  color: #007236;
-  font-weight: 600;
-  margin: 0 1rem;
-  text-decoration: none;
-}
-
-.top-menu-class a:hover {
-    color: #a1490c;
-}
-
-.top-menu-class li {
-    display: inline;
-}
 
 /* ======================
 
-   Footer Styling Styling
+   Footer Styling
 
 ======================== */
 
-footer {
-  background: #dcd3c0;
-  color: #007236;
-  font-weight: bold;
-  margin-top: 5%;
-  padding: 2% 0 1% 0;
-}
-/* Search Widget */
 
-footer label {
-  display: none;
-}
-
-#searchsubmit {
-  background: #007236;
-  color: white;
-  border: solid 1px #007236;
-  border-radius: 5px;
-}
-
-#s {
-  border: solid 2px #007236;
-  border-radius: 5px;
-  background: #f5f5dc;
-}
 
 /* ======================
 
@@ -110,20 +38,7 @@ footer label {
 
 ======================== */
 
-.post-featured-image img {
-    max-width: 285px;
-    object-fit: contain;
-}
 
-.post-overview {
-  padding-bottom: 5%;
-}
-
-.post-info {
-  font-weight: 600;
-  color: #007236;
-  padding-top: 2%;
-}
 
 /* ======================
 
@@ -131,14 +46,7 @@ footer label {
 
 ======================== */
 
-.single-post-info {
-  font-weight: 600;
-  color: #007236;
-}
 
-.single-post-featured-image {
-  padding: 2% 0;
-}
 
 /* ======================
 
@@ -146,20 +54,10 @@ footer label {
 
 ======================== */
 
-.page-featured-image {
-  padding: 2% 0 3% 0;
-}
+
 
 /* ======================
 
    page-home.php Template
 
 ======================== */
-
-.widget-about-us {
-  padding: 5% 0;
-}
-
-.home-widget {
-  padding: 0 2%;
-}
