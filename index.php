@@ -11,7 +11,7 @@
 
                   <div class="parallax"></div>
 
-                  <div style="height:500px; background-color:#0c005a;">
+                  <div style="height:300px; background-color:#0c005a;">
                     <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
                   </div>
 
@@ -22,8 +22,8 @@
 
                     <div class="parallax"></div>
 
-                    <div style="height:500px; background-color:#0c005a;font-size:16px" >
-                          <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
+                    <div style="height:300px; background-color:#0c005a;font-size:16px" >
+                      <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
                     </div>
 
 
