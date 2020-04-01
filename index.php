@@ -2,6 +2,17 @@
 
   <div class="container">
     <div class="row">
+
+        <!--here is the smart slider plugin - hero image, install widget area, will need to be styled on remote site -->
+
+        <!-- blog slider 1, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
+
+        <!-- paralax scroll 1 here, hand code -->
+
+        <!-----blog slider 2, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
+
+        <!-- paralax scroll 2 here, hand code -->
+
       <?php  if(have_posts()){
         while(have_posts()){
           the_post(); ?>
