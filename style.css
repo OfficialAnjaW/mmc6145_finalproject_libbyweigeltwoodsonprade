@@ -56,9 +56,9 @@ h1, h2, h3, h4 {
 
 .parallax {
     /* The image used */
-    background-image: url("scrolltruck1.png");
+    background-image: url("images/smallbluetruck.png");
     /* Set a specific height */
-    height: 500px;
+    height: 250px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -69,7 +69,7 @@ h1, h2, h3, h4 {
 .parallaxtext {
   color: #ededed;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 /* ======================
 
