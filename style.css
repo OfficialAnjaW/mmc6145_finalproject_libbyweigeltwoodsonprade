@@ -55,17 +55,17 @@ h1, h2, h3, h4 {
 ======================== */
 
 .parallax {
-      /* The image used */
-      background-image: url("/images/1190038RL.2-1024x768.jpg");
+    /* The image used */
+    background-image: url("/images/1190038RL.2-1024x768.jpg");
 
-      /* Set a specific height */
-      min-height: 500px;
+    /* Set a specific height */
+    min-height: 500px;
 
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallaxtext {
