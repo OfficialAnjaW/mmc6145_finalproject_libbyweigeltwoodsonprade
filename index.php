@@ -2,6 +2,7 @@
 
 
 <main>
+
         <!--here is the smart slider plugin - hero image, install widget area, will need to be styled on remote site -->
 
         <!-- blog slider 1, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
@@ -10,8 +11,8 @@
 
                   <div class="parallax"></div>
 
-                  <div style="height:500px; background-color:#0c005a;font-size:36px">
-                  Lorem Ipsum sentence here.
+                  <div style="height:500px; background-color:#0c005a;">
+                    <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
                   </div>
 
         <!-----blog slider 2, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
@@ -21,8 +22,8 @@
 
                     <div class="parallax"></div>
 
-                    <div style="height:500px; background-color:#0c005a;font-size:36px">
-                        Lorem Ipsum sentence here.
+                    <div style="height:500px; background-color:#0c005a;font-size:16px" >
+                          <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
                     </div>
 
 
