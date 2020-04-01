@@ -6,13 +6,32 @@
         <!--here is the smart slider plugin - hero image, install widget area, will need to be styled on remote site -->
 
         <!-- blog slider 1, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
-
+            <p>WP Carousel Plugin</p>
         <!-- paralax scroll 1 here, hand code -->
 
+                  <div class="parallax"></div>
+
+                  <div style="height:1000px; background-color:red;font-size:36px">
+                  Scroll Up and Down this page to see the parallax scrolling effect.
+                  This div is just here to enable scrolling.
+                  Tip: Try to remove the background-attachment property to remove the scrolling effect.
+                  </div>
+
         <!-----blog slider 2, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
+            <p>WP Carousel Plugin</p>
 
         <!-- paralax scroll 2 here, hand code -->
 
+                  <div class="parallax"></div>
+
+                  <div style="height:1000px; background-color:red;font-size:36px">
+                  Scroll Up and Down this page to see the parallax scrolling effect.
+                  This div is just here to enable scrolling.
+                  Tip: Try to remove the background-attachment property to remove the scrolling effect.
+                  </div>
+
+
+<!--- previous code from assignment 3 starts------------------->
       <?php  if(have_posts()){
         while(have_posts()){
           the_post(); ?>
@@ -34,6 +53,12 @@
     <?php } //ends while loop
     } //ends if statement
       ?>
+
+<!--- previous code from assignment 3 ends------------------->
+
+
+
+
     </div>
   </div>
 
