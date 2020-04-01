@@ -12,7 +12,7 @@
     <?php wp_head(); ?>
 
     <!--Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
