@@ -13,7 +13,7 @@
 
                   <div class="parallax"></div>
 
-                  <div style="height:300px; background-color:#0c005a;">
+                  <div style="height:150px; background-color:#0c005a;">
                     <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
                   </div>
 
@@ -23,11 +23,11 @@
 
         <!-- paralax scroll 2 here, hand code -->
 
-                <!--    <div class="parallax"></div>
+                 <div class="parallax"></div>
 
-                    <div style="height:300px; background-color:#0c005a;" >
+                    <div style="height:150px; background-color:#0c005a;" >
                       <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
-                    </div> -->
+                    </div>
           </content>
 
 
