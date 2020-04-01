@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
 }
 
  p {
-   font-family: lato;
+   font-family:  'Lato', sans-serif;;
  }
 
 /* ======================
@@ -56,7 +56,7 @@ h1, h2, h3, h4 {
 
 .parallax {
       /* The image used */
-      background-image: url("http://www.officialanja.com/trucksparts/wp-content/uploads/2020/04/1190038RL.2-scaled.jpg");
+      background-image: url("images/1190038RL.2-1024x768.jpg");
 
       /* Set a specific height */
       min-height: 500px;
