@@ -20,6 +20,8 @@
     <!-- Header -->
     <header>
       <div class="container">
+
+        <!--  Menu/Navigation Bar One -->
         <div class="row">
 
           <!-- Header Image/Linked Logo -->
@@ -31,9 +33,9 @@
             <?php } ?>
           </div>
 
-          <!--  Menu/Navigation Bar -->
+          <!--  Top Menu -->
           <div class="col-lg-9 d-flex align-items-center">
-            <nav>
+            <nav class="main-menu-nav">
               <?php
                 if(has_nav_menu('top-menu')){
                   wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
@@ -43,7 +45,27 @@
               ?>
             </nav>
           </div>
+          
+        </div>
+
+
+        <!--  Menu/Navigation Bar Two -->
+        <div class="row">
+
+          <!-- Main Menu -->
+          <div class="col-lg-12 d-flex align-items-center">
+            <nav class="main-menu-nav">
+              <?php
+                if(has_nav_menu('main-menu')){
+                  wp_nav_menu(array('theme_location' => 'main-menu' , 'container_class' => 'main-menu-class'));
+                }else{
+                  echo "Please select a main menu through the dashboard";
+                }
+              ?>
+            </nav>
+          </div>
 
         </div>
+
       </div>
     </header>
