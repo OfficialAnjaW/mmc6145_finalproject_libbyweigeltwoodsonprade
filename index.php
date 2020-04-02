@@ -28,6 +28,57 @@
 
   <h2 class="blogpadding">Blog Category B</h2>
 
+<!--- services section with buttons------------------------------>
+
+  <h2 class="blogpadding">Services</h2>
+  <div class="container">
+      <div class="row" >
+        <div class="card" style="width: 12rem;">
+          <img class="card-img-top" src="http://www.officialanja.com/trucksparts/wp-content/uploads/2020/04/noun_rent_1879701.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+
+            <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 12rem;">
+          <img class="card-img-top" src="http://www.officialanja.com/trucksparts/wp-content/uploads/2020/04/noun_Mechanic_954220.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 12rem;">
+          <img class="card-img-top" src="http://www.officialanja.com/trucksparts/wp-content/uploads/2020/04/noun_delivered_2391946.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 12rem;">
+          <img class="card-img-top" src="http://www.officialanja.com/trucksparts/wp-content/uploads/2020/04/noun_certified_720125.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 12rem;">
+          <img class="card-img-top" src="http://www.officialanja.com/trucksparts/wp-content/uploads/2020/04/noun_Dump-Truck_1938546.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+
 
 
 
