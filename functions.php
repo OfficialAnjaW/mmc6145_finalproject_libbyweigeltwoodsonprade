@@ -72,7 +72,7 @@
 
 function blank_widgets_init(){
 
-  // Widget Area 1: Hero Image
+  // Widget Area 1: Homepage Hero Image
   register_sidebar(array(
       'name'          => ('Hero Image'),
       'id'            => 'hero-image',
@@ -127,18 +127,7 @@ function blank_widgets_init(){
       'after_title'   => '</h5>'
   ));
 
-  // Widget Area 6: Right Sidebar
-  register_sidebar(array(
-      'name'          => ('Right Sidebar'),
-      'id'            => 'right-sidebar',
-      'description'   => 'Right Sidebar Area for Template',
-      'before_widget' => '<div class="widget-right-sidebar">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h5 class="right-sidebar-widget-title">',
-      'after_title'   => '</h5>'
-  ));
-
-  // Widget Area 7: Left Footer
+  // Widget Area 6: Left Footer
   register_sidebar(array(
       'name'          => ('Left Footer'),
       'id'            => 'left-footer',
@@ -149,7 +138,7 @@ function blank_widgets_init(){
       'after_title'   => '</h5>'
   ));
 
-  // Widget Area 8: Middle Footer
+  // Widget Area 7: Middle Footer
   register_sidebar(array(
       'name'          => ('Middle Footer'),
       'id'            => 'middle-footer',
@@ -160,7 +149,7 @@ function blank_widgets_init(){
       'after_title'   => '</h5>'
   ));
 
-  // Widget Area 9: Right Footer
+  // Widget Area 8: Right Footer
   register_sidebar(array(
       'name'          => ('Right Footer'),
       'id'            => 'right-footer',
@@ -169,17 +158,6 @@ function blank_widgets_init(){
       'after_widget'  => '</div>',
       'before_title'  => '<h5 class="right-footer-widget-title">',
       'after_title'   => '</h5>'
-  ));
-
-  // Widget Area 10: Pages Hero Image
-  register_sidebar(array(
-      'name'          => ('Right Sidebar Pages Hero Image'),
-      'id'            => 'right-sidebar-pages-hero-image',
-      'description'   => 'Hero Image for Pages with Right Sidebar',
-      'before_widget' => '<div class="widget-right-sidebar-pages-hero-image">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="right-sidebar-pages-hero-image-widget-title">',
-      'after_title'   => '</h3>'
   ));
 
 }

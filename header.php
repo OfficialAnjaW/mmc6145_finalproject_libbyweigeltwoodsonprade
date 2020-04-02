@@ -19,41 +19,39 @@
 
     <!-- Header -->
     <header>
-      <div class="container">
 
-        <!--  Menu/Navigation Bar One -->
-        <div class="row">
+      <!--  Menu/Navigation Bar One -->
+      <div class="row top-menu-container">
 
-          <!-- Header Image/Linked Logo -->
-          <div class="col-lg-3">
-            <?php  if(get_header_image() == ''){?>
-              <h1><a href="<?php get_home_url();?>"><?php bloginfo('name'); ?></a></h1><?php
-            }else{?>
-              <a href="<?php echo get_home_url(); ?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
-            <?php } ?>
-          </div>
-
-          <!--  Top Menu -->
-          <div class="col-lg-9 d-flex align-items-center">
-            <nav class="main-menu-nav">
-              <?php
-                if(has_nav_menu('top-menu')){
-                  wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
-                }else{
-                  echo "Please select a top menu through the dashboard";
-                }
-              ?>
-            </nav>
-          </div>
-          
+        <!-- Header Image/Linked Logo -->
+        <div class="col-lg-3">
+          <?php  if(get_header_image() == ''){?>
+            <h1><a href="<?php get_home_url();?>"><?php bloginfo('name'); ?></a></h1><?php
+          }else{?>
+            <a href="<?php echo get_home_url(); ?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
+          <?php } ?>
         </div>
+
+        <!--  Top Menu -->
+        <div class="col-lg-9 d-flex align-items-center justify-content-around">
+          <nav class="main-menu-nav">
+            <?php
+              if(has_nav_menu('top-menu')){
+                wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
+              }else{
+                echo "Please select a top menu through the dashboard";
+              }
+            ?>
+          </nav>
+        </div>
+
+      </div>
 
 
         <!--  Menu/Navigation Bar Two -->
-        <div class="row">
-
+        <div class="row main-menu-container">
           <!-- Main Menu -->
-          <div class="col-lg-12 d-flex align-items-center">
+          <div class="col-lg-12 d-flex justify-content-around">
             <nav class="main-menu-nav">
               <?php
                 if(has_nav_menu('main-menu')){
@@ -64,8 +62,6 @@
               ?>
             </nav>
           </div>
-
         </div>
 
-      </div>
     </header>
