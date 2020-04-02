@@ -32,7 +32,7 @@
           </div>
 
           <!--  Menu/Navigation Bar -->
-          <div class="col-lg-5 d-flex align-items-center">
+          <div class="col-lg-9 d-flex align-items-center">
             <nav>
               <?php
                 if(has_nav_menu('top-menu')){

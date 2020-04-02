@@ -54,8 +54,11 @@
   function register_my_menus(){
     register_nav_menus(
       array(
-        'top-menu'      => __('Top Menu'),
-        'footer-menu'  => __('Footer Menu'),
+        'top-menu'           => __('Top Menu'),
+        'main-menu'          => __('Main Menu'),
+        'footer-left-menu'   => __('Footer Left Menu'),
+        'footer-middle-menu' => __('Footer Middle Menu'),
+        'footer-right-menu'  => __('Footer Right Menu'),
       )
     );
   }
