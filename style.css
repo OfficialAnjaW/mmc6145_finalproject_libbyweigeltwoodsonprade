@@ -60,7 +60,38 @@
    single.php Template
 
 ======================== */
-
+.posts h2, h5 {
+  color: #0c005a;
+}
+.sidebar {
+  background-color: #eaeaea;
+  margin-bottom: 2%;
+}
+.widget-post-hero-image {
+  margin-bottom: 2%;
+  background-color: green;
+}
+.recent-posts {
+  background-color: #0c005a;
+  padding: 1%;
+}
+.recent-posts h2 {
+  color: white;
+}
+.widget-right-sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.widget-right-sidebar ul li a {
+  color: black;
+}
+.right-sidebar-widget-title {
+  color: #0c005a;
+}
+.widget-comments {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
 
 /* ======================
@@ -122,7 +153,6 @@
 .location h2 {
   color: #0c005a;
 }
-
 
 /* ======================
 

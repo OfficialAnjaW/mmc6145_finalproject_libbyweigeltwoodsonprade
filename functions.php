@@ -213,6 +213,37 @@ function blank_widgets_init(){
       'after_title'   => '</h3>'
   ));
 
+  // Post Hero Image
+  register_sidebar(array(
+      'name'          => ('Post Hero Image'),
+      'id'            => 'post-hero-image',
+      'description'   => 'Hero Image for Post Pages',
+      'before_widget' => '<div class="widget-post-hero-image">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="post-image-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+  // Post Hero Image
+  register_sidebar(array(
+      'name'          => ('Recent Posts'),
+      'id'            => 'recent-posts',
+      'description'   => 'Recent Posts Slider Post Pages',
+      'before_widget' => '<div class="widget-recent-posts">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="recent-posts-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+  // Post Hero Image
+  register_sidebar(array(
+      'name'          => ('Comments'),
+      'id'            => 'comments',
+      'description'   => 'Comments Widget Post Pages',
+      'before_widget' => '<div class="widget-comments">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="comments-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+
 }
 
 add_action('widgets_init', 'blank_widgets_init');
