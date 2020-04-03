@@ -180,6 +180,17 @@ function blank_widgets_init(){
       'after_title'   => '</h3>'
   ));
 
+  // Contact Us Hero Image
+  register_sidebar(array(
+      'name'          => ('Contact Us Hero Image'),
+      'id'            => 'contact-hero-image',
+      'description'   => 'Hero Image for Contact Page',
+      'before_widget' => '<div class="widget-contact-hero-image">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="contact-hero-image-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+
 }
 
 add_action('widgets_init', 'blank_widgets_init');
