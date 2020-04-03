@@ -15,7 +15,7 @@
             while(have_posts()){
               the_post(); ?>
               <h2 class="entry-title"><?php the_title(); ?></h2>
-              <h5 class="single-post-info"><?php echo "Author: " . get_the_author(); echo " // Date Published: " . get_the_date(); echo " // " . get_the_category(); echo " // " . get_the_tags(); ?></h5>
+              <h5 class="single-post-info"><?php echo "Author: " . get_the_author(); echo " // " . get_the_date() . " // "; the_category();?></h5>
 
               <?php the_content(); ?>
           <?php  } //this ends while loop
