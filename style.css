@@ -18,12 +18,16 @@ COLORS:
 #eaeaea grey
 */
 
-
 /* ======================
 
    Universal Styling
 
 ======================== */
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Oswald', sans-serif;
 }
@@ -54,6 +58,59 @@ h1, h2, h3, h4 {
 
 ======================== */
 
+header {
+  padding-top: 1%;
+  margin-bottom: 5%;
+}
+/* header img {
+  max-width: 225px;
+  object-fit: contain;
+} */
+
+/* Top Navigation Menu */
+
+.top-menu-container {
+  background: #ffffff;
+  padding: 0 4% 1% 4%;
+}
+
+.top-menu-class a {
+  color: #0c005a;
+  font-weight: 600;
+  margin: 0 3rem;
+  text-decoration: none;
+}
+
+.top-menu-class a:hover {
+  color: #bc2525;
+}
+
+.top-menu-class li {
+  display: inline;
+}
+
+/* Main Navigation Menu */
+
+.main-menu-container {
+  background: #0c005a;
+  padding: 2% 4% 1% 4%;
+}
+
+.main-menu-class a {
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 3rem;
+  text-decoration: none;
+}
+
+.main-menu-class a:hover {
+  color: #bc2525;
+}
+
+.main-menu-class li {
+  display: inline;
+}
+
 /* header img {
   max-width: 150px;
   object-fit: contain;
@@ -65,7 +122,11 @@ h1, h2, h3, h4 {
 
 ======================== */
 
-
+footer {
+  background: #bc2525;
+  padding: 3% 0;
+  margin-top: 5%;
+}
 
 /* ======================
 
