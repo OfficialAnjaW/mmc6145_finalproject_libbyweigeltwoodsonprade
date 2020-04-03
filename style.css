@@ -13,7 +13,14 @@
    Universal Styling
 
 ======================== */
-
+.btn-primary {
+ background-color: #0c005a;
+ border-color: #0c005a;
+}
+.btn-primary:hover {
+ background-color: white;
+ color: #0c005a;
+}
 
 
 /* ======================
@@ -61,3 +68,22 @@
    page-home.php Template
 
 ======================== */
+
+
+
+/* ======================
+
+   404.php Template
+
+======================== */
+.error {
+  margin-top: 2%;
+}
+.error img {
+  max-width: 280px;
+}
+@media (min-width:600px) {
+  .error img {
+    max-width: 500px;
+  }
+}
