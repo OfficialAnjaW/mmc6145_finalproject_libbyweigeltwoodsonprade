@@ -8,11 +8,29 @@
   Text Domain: assignment_theme
 */
 
+/* fonts
+font-family: 'Oswald', sans-serif;
+font-family: 'Lato', sans-serif;
+COLORS:
+#0c005a dark blue
+#bc2525 rusty red
+#ff0000 bright red
+#eaeaea grey
+*/
+
+
 /* ======================
 
    Universal Styling
 
 ======================== */
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+ p {
+   font-family:  'Lato', sans-serif;;
+ }
 .btn-primary {
  background-color: #0c005a;
  border-color: #0c005a;
@@ -55,8 +73,51 @@
 
 ======================== */
 
+.parallax {
+    /* The image used */
+    background-image: url("images/smallbluetruck.png");
+    /* Set a specific height */
+    height: 250px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.parallaxtext {
+  color: #ededed;
+  text-align: center;
+  padding-top: 50px;
+}
 
+.bkgblue {
+  background-color: #0c005a;
+}
+
+.blogpadding {
+  padding: 100px;
+}
+
+h2.blogpadding.color {
+  background-color: #0c005a;
+  color: #ffffff;
+}
+
+img.card-img-top {
+    max-width: 99px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+.card {
+    background-color: #0c005a;
+}
+
+h5.card-title {
+    color: #ffffff;
+}
 /* ======================
 
    single.php Template
