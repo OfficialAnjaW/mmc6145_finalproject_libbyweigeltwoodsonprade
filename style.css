@@ -21,6 +21,14 @@
  background-color: white;
  color: #0c005a;
 }
+.btn-secondary {
+ background-color: #bc2525;
+ border-color: #bc2525;
+}
+.btn-secondary:hover {
+ background-color: white;
+ color: #bc2525;
+}
 
 
 /* ======================
@@ -69,6 +77,26 @@
 
 ======================== */
 
+
+
+/* ======================
+
+   page-contact.php Template
+
+======================== */
+.contact {
+  background-color: #0c005a;
+  color: white;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.contact div {
+  text-align: center;
+}
+.contact img {
+  max-width: 200px;
+}
 
 
 /* ======================
