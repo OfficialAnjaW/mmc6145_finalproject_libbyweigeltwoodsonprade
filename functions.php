@@ -191,6 +191,28 @@ function blank_widgets_init(){
       'after_title'   => '</h3>'
   ));
 
+  // Location Left Widget
+  register_sidebar(array(
+      'name'          => ('Left Location Widget'),
+      'id'            => 'contact-location-left',
+      'description'   => 'Left widget for location section',
+      'before_widget' => '<div class="widget-contact-location-left">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="contact-location-left-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+
+  // Location Right Widget
+  register_sidebar(array(
+      'name'          => ('Right Location Widget'),
+      'id'            => 'contact-location-right',
+      'description'   => 'Right widget for location section',
+      'before_widget' => '<div class="widget-contact-location-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="contact-location-right-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+
 }
 
 add_action('widgets_init', 'blank_widgets_init');
