@@ -9,42 +9,42 @@
     </div>
   </div>
 
-<!-- blog slider 1, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
-  <h2 class="blogpadding">Blog Category A</h2>
-  <!-- Widget Area 11: Blog A--->
+  <!-- blog slider 1, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
+    <h2 class="blogpadding">Blog Category A</h2>
+    <!-- Widget Area 11: Blog A--->
 
 
-<!-- paralax scroll 1 here, hand code -->
+  <!-- paralax scroll 1 here, hand code -->
 
-  <div class="parallax"></div>
-    <div style="height:150px; background-color:#0c005a;" >
-    <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
-  </div>
-
-
-<!-----blog slider 2, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
-
-
-  <h2 class="blogpadding">Blog Category B</h2>
-
-
-
-<!-- paralax scroll 2 here, hand code -->
-
-  <div class="parallax"></div>
+    <div class="parallax"></div>
       <div style="height:150px; background-color:#0c005a;" >
       <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
-  </div>
+    </div>
+
+
+  <!-----blog slider 2, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
+
+
+    <h2 class="blogpadding">Blog Category B</h2>
 
 
 
-  <h2 class="blogpadding">Blog Category B</h2>
+  <!-- paralax scroll 2 here, hand code -->
 
-<!--- services section with buttons------------------------------>
+    <div class="parallax"></div>
+        <div style="height:150px; background-color:#0c005a;" >
+        <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
+    </div>
+
+
+
+    <h2 class="blogpadding">Blog Category B</h2>
+
+  <!--- services section with buttons------------------------------>
 
 
 </div>
- <!-- <div class="bkgblue">
+ <div class="bkgblue">
   <h2 class="blogpadding color">Services</h2>
   <div class="container">
       <div class="row" >
@@ -91,7 +91,7 @@
         </div>
     </div>
   </div>
-</div>  -->
+</div>
 
 
 

@@ -180,6 +180,12 @@ function blank_widgets_init(){
       'after_title'   => '</h3>'
   ));
 
+  /*===============================================================
+
+    NEW Widget Areas for index.php and page-trucks.php
+
+  ====================================================================*/
+
   // Widget Area 11: Blog Widget A ** NEW FOR FINAL PROJECT*************
   register_sidebar(array(
       'name'          => ('Blog Hero Image'),
@@ -188,6 +194,17 @@ function blank_widgets_init(){
       'before_widget' => '<div class="blog-widget-hero-area">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="blog-widget-hero-for-index">',
+      'after_title'   => '</h3>'
+  ));
+
+  // Widget Area 11: Blog Widget A ** NEW FOR FINAL PROJECT*************
+  register_sidebar(array(
+      'name'          => ('Trucks Hero Image'),
+      'id'            => 'trucks-hero-image',
+      'description'   => 'Trucks Widget Area for Hero',
+      'before_widget' => '<div class="trucks-widget-hero-area">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="trucks-widget-hero-for-index">',
       'after_title'   => '</h3>'
   ));
 
