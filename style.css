@@ -8,6 +8,16 @@
   Text Domain: assignment_theme
 */
 
+/* fonts
+font-family: 'Oswald', sans-serif;
+font-family: 'Lato', sans-serif;
+COLORS:
+#0c005a dark blue
+#bc2525 rusty red
+#ff0000 bright red
+#eaeaea grey
+*/
+
 /* ======================
 
    Universal Styling
@@ -18,8 +28,28 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1 {
+h1, h2, h3, h4 {
   font-family: 'Oswald', sans-serif;
+}
+
+ p {
+   font-family:  'Lato', sans-serif;;
+ }
+.btn-primary {
+ background-color: #0c005a;
+ border-color: #0c005a;
+}
+.btn-primary:hover {
+ background-color: white;
+ color: #0c005a;
+}
+.btn-secondary {
+ background-color: #bc2525;
+ border-color: #bc2525;
+}
+.btn-secondary:hover {
+ background-color: white;
+ color: #bc2525;
 }
 
 /* ======================
@@ -81,6 +111,11 @@ header {
   display: inline;
 }
 
+/* header img {
+  max-width: 150px;
+  object-fit: contain;
+} */
+
 /* ======================
 
    Footer Styling
@@ -99,14 +134,93 @@ footer {
 
 ======================== */
 
+.parallax {
+    /* The image used */
+    background-image: url("images/smallbluetruck.png");
+    /* Set a specific height */
+    height: 250px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.parallaxtext {
+  color: #ededed;
+  text-align: center;
+  padding-top: 50px;
+}
 
+.bkgblue {
+  background-color: #0c005a;
+}
+
+.blogpadding {
+  padding: 100px;
+}
+
+h2.blogpadding.color {
+  background-color: #0c005a;
+  color: #ffffff;
+}
+
+img.card-img-top {
+    max-width: 99px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+.card {
+    background-color: #0c005a;
+}
+
+h5.card-title {
+    color: #ffffff;
+}
 /* ======================
 
    single.php Template
 
 ======================== */
-
+.posts h2, h5 {
+  color: #0c005a;
+}
+.sidebar {
+  background-color: #eaeaea;
+  margin-bottom: 2%;
+}
+.widget-post-hero-image {
+  margin-bottom: 2%;
+  background-color: green;
+}
+.recent-posts {
+  background-color: #0c005a;
+  padding: 1%;
+}
+.recent-posts h2 {
+  color: white;
+}
+.widget-right-sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.widget-right-sidebar ul li a {
+  color: black;
+}
+.right-sidebar-widget-title {
+  color: #0c005a;
+}
+.widget-comments {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.single-post-info ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
 
 
 /* ======================
@@ -122,3 +236,66 @@ footer {
    page-home.php Template
 
 ======================== */
+
+
+
+/* ======================
+
+   page-contact.php Template
+
+======================== */
+.contact {
+  background-color: #0c005a;
+  color: white;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.contact h2 {
+    text-align: center;
+}
+.contact div {
+  text-align: center;
+  margin-bottom: 10%;
+}
+@media (min-width:767px) {
+  .contact div {
+    margin-bottom: 3%
+  }
+}
+@media (min-width:1000px) {
+  .contact h2 {
+      text-align: left;
+  }
+}
+.contact img {
+  max-width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.location {
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.location h2 {
+  color: #0c005a;
+}
+
+/* ======================
+
+   404.php Template
+
+======================== */
+.error {
+  margin-top: 2%;
+}
+.error img {
+  max-width: 280px;
+}
+@media (min-width:600px) {
+  .error img {
+    max-width: 500px;
+  }
+}
