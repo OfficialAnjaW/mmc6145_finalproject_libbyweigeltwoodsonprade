@@ -180,6 +180,17 @@ function blank_widgets_init(){
       'after_title'   => '</h3>'
   ));
 
+  // Widget Area 11: Blog Widget A ** NEW FOR FINAL PROJECT*************
+  register_sidebar(array(
+      'name'          => ('Blog Hero Image'),
+      'id'            => 'blog-hero-image',
+      'description'   => 'Blog Widget Area for Hero Image',
+      'before_widget' => '<div class="blog-widget-hero-area">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="blog-widget-hero-for-index">',
+      'after_title'   => '</h3>'
+  ));
+
 }
 
 add_action('widgets_init', 'blank_widgets_init');

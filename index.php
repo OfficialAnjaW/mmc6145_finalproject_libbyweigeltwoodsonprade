@@ -2,8 +2,16 @@
 <?php get_header(); ?>
 <!--here is the smart slider plugin - hero image, install widget area, will need to be styled on remote site -->
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <?php dynamic_sidebar('blog-hero-image'); ?>
+    </div>
+  </div>
+
 <!-- blog slider 1, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
   <h2 class="blogpadding">Blog Category A</h2>
+  <!-- Widget Area 11: Blog A--->
 
 
 <!-- paralax scroll 1 here, hand code -->
@@ -15,6 +23,8 @@
 
 
 <!-----blog slider 2, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
+
+
   <h2 class="blogpadding">Blog Category B</h2>
 
 
@@ -26,14 +36,16 @@
       <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
   </div>
 
+
+
   <h2 class="blogpadding">Blog Category B</h2>
 
 <!--- services section with buttons------------------------------>
 
 
-
-<div class="bkgblue">
-    <h2 class="blogpadding color">Services</h2>
+</div>
+ <!-- <div class="bkgblue">
+  <h2 class="blogpadding color">Services</h2>
   <div class="container">
       <div class="row" >
         <div class="card" style="width: 12rem;">
@@ -79,7 +91,7 @@
         </div>
     </div>
   </div>
-</div>
+</div>  -->
 
 
 
