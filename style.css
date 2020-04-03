@@ -72,11 +72,33 @@ h1, h2, h3, h4 {
   padding-top: 50px;
 }
 
+.bkgblue {
+  background-color: #0c005a;
+}
+
 .blogpadding {
   padding: 100px;
 }
 
+h2.blogpadding.color {
+  background-color: #0c005a;
+  color: #ffffff;
+}
 
+img.card-img-top {
+    max-width: 99px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+.card {
+    background-color: #0c005a;
+}
+
+h5.card-title {
+    color: #ffffff;
+}
 /* ======================
 
    single.php Template

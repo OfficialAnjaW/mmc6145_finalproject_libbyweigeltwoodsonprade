@@ -30,7 +30,10 @@
 
 <!--- services section with buttons------------------------------>
 
-  <h2 class="blogpadding">Services</h2>
+
+
+<div class="bkgblue">
+    <h2 class="blogpadding color">Services</h2>
   <div class="container">
       <div class="row" >
         <div class="card" style="width: 12rem;">
@@ -74,10 +77,9 @@
             <button type="button" class="btn btn-danger">Danger</button>
           </div>
         </div>
-
-
     </div>
   </div>
+</div>
 
 
 
