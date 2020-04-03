@@ -180,6 +180,70 @@ function blank_widgets_init(){
       'after_title'   => '</h3>'
   ));
 
+  // Contact Us Hero Image
+  register_sidebar(array(
+      'name'          => ('Contact Us Hero Image'),
+      'id'            => 'contact-hero-image',
+      'description'   => 'Hero Image for Contact Page',
+      'before_widget' => '<div class="widget-contact-hero-image">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="contact-hero-image-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+
+  // Location Left Widget
+  register_sidebar(array(
+      'name'          => ('Left Location Widget'),
+      'id'            => 'contact-location-left',
+      'description'   => 'Left widget for location section',
+      'before_widget' => '<div class="widget-contact-location-left">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="contact-location-left-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+
+  // Location Right Widget
+  register_sidebar(array(
+      'name'          => ('Right Location Widget'),
+      'id'            => 'contact-location-right',
+      'description'   => 'Right widget for location section',
+      'before_widget' => '<div class="widget-contact-location-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="contact-location-right-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+
+  // Post Hero Image
+  register_sidebar(array(
+      'name'          => ('Post Hero Image'),
+      'id'            => 'post-hero-image',
+      'description'   => 'Hero Image for Post Pages',
+      'before_widget' => '<div class="widget-post-hero-image">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="post-image-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+  // Post Hero Image
+  register_sidebar(array(
+      'name'          => ('Recent Posts'),
+      'id'            => 'recent-posts',
+      'description'   => 'Recent Posts Slider Post Pages',
+      'before_widget' => '<div class="widget-recent-posts">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="recent-posts-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+  // Post Hero Image
+  register_sidebar(array(
+      'name'          => ('Comments'),
+      'id'            => 'comments',
+      'description'   => 'Comments Widget Post Pages',
+      'before_widget' => '<div class="widget-comments">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="comments-widget-title">',
+      'after_title'   => '</h3>'
+  ));
+
 }
 
 add_action('widgets_init', 'blank_widgets_init');

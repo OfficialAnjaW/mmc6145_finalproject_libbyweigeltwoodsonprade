@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
 
       <div class="col-md-12 error">
         <img src="<?php echo get_template_directory_uri() . '/images/404.gif' ?>" alt="Error Message" />

@@ -13,7 +13,22 @@
    Universal Styling
 
 ======================== */
-
+.btn-primary {
+ background-color: #0c005a;
+ border-color: #0c005a;
+}
+.btn-primary:hover {
+ background-color: white;
+ color: #0c005a;
+}
+.btn-secondary {
+ background-color: #bc2525;
+ border-color: #bc2525;
+}
+.btn-secondary:hover {
+ background-color: white;
+ color: #bc2525;
+}
 
 /* ======================
 
@@ -47,7 +62,43 @@
    single.php Template
 
 ======================== */
-
+.posts h2, h5 {
+  color: #0c005a;
+}
+.sidebar {
+  background-color: #eaeaea;
+  margin-bottom: 2%;
+}
+.widget-post-hero-image {
+  margin-bottom: 2%;
+  background-color: green;
+}
+.recent-posts {
+  background-color: #0c005a;
+  padding: 1%;
+}
+.recent-posts h2 {
+  color: white;
+}
+.widget-right-sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.widget-right-sidebar ul li a {
+  color: black;
+}
+.right-sidebar-widget-title {
+  color: #0c005a;
+}
+.widget-comments {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.single-post-info ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
 
 
 /* ======================
@@ -63,3 +114,66 @@
    page-home.php Template
 
 ======================== */
+
+
+
+/* ======================
+
+   page-contact.php Template
+
+======================== */
+.contact {
+  background-color: #0c005a;
+  color: white;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.contact h2 {
+    text-align: center;
+}
+.contact div {
+  text-align: center;
+  margin-bottom: 10%;
+}
+@media (min-width:767px) {
+  .contact div {
+    margin-bottom: 3%
+  }
+}
+@media (min-width:1000px) {
+  .contact h2 {
+      text-align: left;
+  }
+}
+.contact img {
+  max-width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.location {
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.location h2 {
+  color: #0c005a;
+}
+
+/* ======================
+
+   404.php Template
+
+======================== */
+.error {
+  margin-top: 2%;
+}
+.error img {
+  max-width: 280px;
+}
+@media (min-width:600px) {
+  .error img {
+    max-width: 500px;
+  }
+}
