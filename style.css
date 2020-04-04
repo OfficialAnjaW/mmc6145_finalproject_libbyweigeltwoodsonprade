@@ -223,6 +223,12 @@ h5.card-title {
     display: inline-block;
     padding: 0;
 }
+.wpcp-single-item {
+  height: 275px;
+}
+.wpcp-slide-image {
+  padding-top: 10px;
+}
 
 /* ======================
 
