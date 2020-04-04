@@ -67,8 +67,14 @@ header img {
   padding: 2% 0;
 }
 
-.header-top p {
+.widget-header-contact a {
   color: #ff0000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.widget-header-contact a:hover {
+  color: #0c005a;
   font-weight: 600;
 }
 
