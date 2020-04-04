@@ -20,49 +20,50 @@
     <!-- Header -->
     <header>
 
-      <!--  Menu/Navigation Bar One -->
-      <div class="row top-menu-container">
+      <div class="container header-top">
+        <div class="row">
 
-        <!-- Header Image/Linked Logo -->
-        <div class="col-lg-3">
-          <?php  if(get_header_image() == ''){?>
-            <h1><a href="<?php get_home_url();?>"><?php bloginfo('name'); ?></a></h1><?php
-          }else{?>
-            <a href="<?php echo get_home_url(); ?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
-          <?php } ?>
-        </div>
+          <!-- Header Image/Linked Logo -->
+          <div class="col-sm-6">
+            <?php  if(get_header_image() == ''){?>
+              <h1><a href="<?php get_home_url();?>"><?php bloginfo('name'); ?></a></h1><?php
+            }else{?>
+              <a href="<?php echo get_home_url(); ?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
+            <?php } ?>
+          </div>
 
-        <!--  Top Menu -->
-        <div class="col-lg-9 d-flex align-items-center justify-content-around">
-          <nav class="top-menu-nav">
-            <?php
-              if(has_nav_menu('top-menu')){
-                wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
-              }else{
-                echo "Please select a top menu through the dashboard";
-              }
-            ?>
-          </nav>
-        </div>
+          <!-- Widget Area: Header Contact -->
+          <div class="col-sm-3 d-flex align-items-center">
+            <?php dynamic_sidebar('header-contact'); ?>
+          </div>
 
-      </div>
-
-
-        <!--  Menu/Navigation Bar Two -->
-        <div class="row main-menu-container">
-          <!-- Main Menu -->
-          <div class="col-lg-12 d-flex justify-content-around">
-            <nav class="main-menu-nav">
-              <?php
-                if(has_nav_menu('main-menu')){
-                  wp_nav_menu(array('theme_location' => 'main-menu' , 'container_class' => 'main-menu-class'));
-                }else{
-                  echo "Please select a main menu through the dashboard";
-                }
-              ?>
-            </nav>
+          <!-- Widget Area: Header Social -->
+          <div class="col-sm-3 d-flex align-items-center">
+            <?php dynamic_sidebar('header-social'); ?>
           </div>
 
         </div>
+      </div>
+
+      <!-- Navigation: Main Menu -->
+      <div class="main-menu-background">
+        <div class="container main-menu-container">
+          <div class="row">
+
+            <div class="col-lg-12 d-flex justify-content-around">
+              <nav class="main-navigation">
+                <?php
+                  if(has_nav_menu('main-menu')){
+                    wp_nav_menu(array('theme_location' => 'main-menu' , 'container_class' => 'main-menu-class'));
+                  }else{
+                    echo "Please select a main menu through the dashboard";
+                  }
+                ?>
+              </nav>
+            </div>
+
+          </div>
+        </div>
+      </div>
 
     </header>

@@ -54,7 +54,6 @@
   function register_my_menus(){
     register_nav_menus(
       array(
-        'top-menu'           => __('Top Menu'),
         'main-menu'          => __('Main Menu'),
         'footer-middle-menu' => __('Footer Middle Menu'),
         'footer-right-menu'  => __('Footer Right Menu'),
@@ -65,6 +64,34 @@
   add_action('init', 'register_my_menus');
 
   function blank_widgets_init(){
+
+/*===================================
+
+  Widget Areas header.php
+
+=====================================*/
+
+// Widget Area: Header Contact
+register_sidebar(array(
+    'name'          => ('Header Contact'),
+    'id'            => 'header-contact',
+    'description'   => 'Contact Info in Header',
+    'before_widget' => '<div class="widget-header-contact">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h5 class="header-contact-widget-title">',
+    'after_title'   => '</h5>'
+));
+
+// Widget Area: Header Social
+register_sidebar(array(
+    'name'          => ('Header Social'),
+    'id'            => 'header-social',
+    'description'   => 'Social Meida Info in Header',
+    'before_widget' => '<div class="widget-header-social">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h5 class="header-social-widget-title">',
+    'after_title'   => '</h5>'
+));
 
 /*===================================
 
