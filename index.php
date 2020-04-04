@@ -26,7 +26,7 @@ Template Post Type: page
 
     <div class="parallax"></div>
       <div style="height:150px; background-color:#0c005a;" >
-      <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
+      <h2 class="parallaxtext">Garbage Truck Types</h2>
     </div>
 
 
@@ -38,9 +38,9 @@ Template Post Type: page
 
   <!-- paralax scroll 2 here, hand code -->
 
-    <div class="parallax"></div>
+    <div class="parallax2"></div>
         <div style="height:150px; background-color:#0c005a;" >
-        <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
+        <h2 class="parallaxtext">All Other Truck Types</h2>
     </div>
 
 

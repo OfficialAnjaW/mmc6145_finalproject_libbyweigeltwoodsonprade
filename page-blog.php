@@ -25,9 +25,9 @@ Template Post Type: page
 
   <!-- paralax scroll 1 here, hand code -->
 
-    <div class="parallax"></div>
+    <div class="parallax3"></div>
       <div style="height:150px; background-color:#0c005a;" >
-      <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
+      <h2 class="parallaxtext">"In Small Things Great Strength Lies!"</h2>
     </div>
 
 
@@ -40,14 +40,14 @@ Template Post Type: page
 
   <!-- paralax scroll 2 here, hand code -->
 
-    <div class="parallax"></div>
+    <div class="parallax4"></div>
         <div style="height:150px; background-color:#0c005a;" >
-        <h2 class="parallaxtext">Lorem Ipsum sentence here.</h2>
+        <h2 class="parallaxtext">"Late Model Front Loaders"</h2>
     </div>
 
 
 
-    <h2 class="blogpadding">Blog Category B</h2>
+    <h2 class="blogpadding">Blog Category C</h2>
 
 
 </div>

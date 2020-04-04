@@ -146,6 +146,43 @@ footer {
     background-size: cover;
 }
 
+.parallax2 {
+    /* The image used */
+    background-image: url("images/concretetruck1.png");
+    /* Set a specific height */
+    height: 250px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("images/emptydumper1.png");
+    /* Set a specific height */
+    height: 250px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("images/greendumper1.png");
+    /* Set a specific height */
+    height: 250px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .parallaxtext {
   color: #ededed;
   text-align: center;
