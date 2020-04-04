@@ -312,6 +312,16 @@
         'before_title'  => '<h3 class="comments-widget-title">',
         'after_title'   => '</h3>'
     ));
+    // Post sidebar
+    register_sidebar(array(
+        'name'          => ('Right Sidebar'),
+        'id'            => 'right-sidebar',
+        'description'   => 'Sidebar Widget Post Pages',
+        'before_widget' => '<div class="widget-right-sidebar">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="right-sidebar-widget-title">',
+        'after_title'   => '</h3>'
+    ));
   }
 
   add_action('widgets_init', 'blank_widgets_init');
