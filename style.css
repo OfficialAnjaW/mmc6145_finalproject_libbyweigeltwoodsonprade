@@ -261,10 +261,9 @@ h5.card-title {
     padding: 0;
 }
 .wpcp-carousel-wrapper #sp-wp-carousel-free-id-109.wpcp-post-carousel .wpcp-single-item {
-  height: 275px;
-}
-.wpcp-carousel-wrapper #sp-wp-carousel-free-id-109.wpcp-post-carousel .wpcp-single-item {
-  padding-top: 10px;
+    background: #eaeaea;
+    height: 275px;
+    padding-top: 10px;
 }
 
 /* ======================
