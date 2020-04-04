@@ -30,8 +30,8 @@
 ============================= */
 
   $custom_image_header = array(
-    'width'   => 225,
-    'height'  => 120,
+    'width'   => 250,
+    'height'  => 155,
     'uploads' => true,
   );
 

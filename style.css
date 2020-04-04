@@ -58,10 +58,10 @@ h1, h2, h3, h4 {
 
 ======================== */
 
-/* header img {
+header img {
   max-width: 225px;
   object-fit: contain;
-} */
+}
 
 /* Header Top Section */
 
@@ -94,6 +94,10 @@ h1, h2, h3, h4 {
 .main-menu-class li {
   display: inline;
   margin: 0 4rem;
+}
+
+nav.main-navigation {
+  color: #ffffff;
 }
 
 /* ======================
