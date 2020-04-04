@@ -9,7 +9,7 @@
 
 <!-- ======================= Blog Content ==================-->
     <div class="row justify-content-center posts">
-      <main class="col-md-9">
+      <main class="col-lg-9 col-md-8 col-sm-12">
         <?php
           if(have_posts()) {
             while(have_posts()){
@@ -23,7 +23,7 @@
         ?>
       </main>
 <!-- ======================= Blog Sidebar ==================-->
-      <aside class="col-md-2 sidebar">
+      <aside class="col-lg-3 col-md-4 col-sm-12 sidebar">
         <?php get_sidebar(); ?>
       </aside>
     </div>
