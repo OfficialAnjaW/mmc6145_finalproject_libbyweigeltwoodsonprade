@@ -29,7 +29,7 @@
     </div>
 
 <!-- ======================= Recent Posts Slider ==================-->
-  <section class="recent-posts">
+  <section class="recent-posts" id="recent-posts">
     <h2>Related Posts</h2>
       <div class="row">
         <div class="col-md-12">
