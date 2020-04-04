@@ -59,37 +59,24 @@ h1, h2, h3, h4 {
 ======================== */
 
 header img {
-  max-width: 225px;
+  max-width: 250px;
   object-fit: contain;
 }
 
-/* Top Navigation Menu */
-
-.top-menu-container {
-  background: #ffffff;
-  padding: 0 4% 1% 4%;
+.header-top {
+  padding: 2% 0;
 }
 
-.top-menu-class a {
-  color: #0c005a;
+.header-top p {
+  color: #ff0000;
   font-weight: 600;
-  margin: 0 3rem;
-  text-decoration: none;
 }
 
-.top-menu-class a:hover {
-  color: #bc2525;
-}
+/* Navigation Menu */
 
-.top-menu-class li {
-  display: inline;
-}
-
-/* Main Navigation Menu */
-
-.main-menu-container {
+.main-menu-background {
   background: #0c005a;
-  padding: 2% 4% 1% 4%;
+  padding-top: 1%;
 }
 
 .main-menu-class a {
