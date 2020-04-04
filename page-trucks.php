@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Homepage Layout
+Template Name: Trucks Page Layout
 Template Post Type: page
 */
 ?>

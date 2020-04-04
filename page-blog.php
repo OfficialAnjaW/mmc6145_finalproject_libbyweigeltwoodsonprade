@@ -1,9 +1,11 @@
 <?php
 /*
-Template Name: Index Home Backup Layout
+Template Name: Blog Home Layout
 Template Post Type: page
 */
 ?>
+
+
 
 <?php get_header(); ?>
 <!--here is the smart slider plugin - hero image, install widget area, will need to be styled on remote site -->
@@ -13,7 +15,6 @@ Template Post Type: page
     <?php dynamic_sidebar('blog-hero-image'); ?>
   </div>
 </div>
-
 
 <div class="container">
 
@@ -36,6 +37,7 @@ Template Post Type: page
     <h2 class="blogpadding">Blog Category B</h2>
 
 
+
   <!-- paralax scroll 2 here, hand code -->
 
     <div class="parallax"></div>
@@ -44,9 +46,11 @@ Template Post Type: page
     </div>
 
 
+
     <h2 class="blogpadding">Blog Category B</h2>
+
+
 </div>
-  <!--- services section with buttons------------------------------>
 
 
 
