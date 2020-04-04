@@ -18,7 +18,7 @@ Template Post Type: page
   <div class="container">
 
       <!-- blog carousel 1, here is the WP Carousel Plugin -->
-      <h2 class="blogpadding">Category A</h2>
+      <h2 class="blogpadding">Front Loader Trucks</h2>
       <div class="row">
         <div class="col-md-12">
           <?php dynamic_sidebar('truck-carousel-area-1'); ?>
@@ -28,12 +28,12 @@ Template Post Type: page
       <!-- paralax scroll 1 here, hand code -->
       <div class="parallax"></div>
         <div style="height:150px; background-color:#0c005a;" >
-        <h2 class="parallaxtext">Garbage Truck Types</h2>
+        <h2 class="parallaxtext">Rear Loader Trucks</h2>
       </div>
 
 
       <!-----blog carousel 2, here is the WP Carousel Plugin -->
-        <h2 class="blogpadding">Category B</h2>
+        <h2 class="blogpadding">All Other Trucks</h2>
         <div class="row">
           <div class="col-md-12">
             <?php dynamic_sidebar('truck-carousel-area-2'); ?>
