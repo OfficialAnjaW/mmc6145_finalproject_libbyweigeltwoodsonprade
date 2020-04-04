@@ -290,6 +290,25 @@ h5.card-title {
 .location h2 {
   color: #0c005a;
 }
+.contact-location-right-widget-title {
+  color: #0c005a;
+}
+.contact-location-left-widget-title {
+  color: #0c005a;
+}
+.map-responsive{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-responsive iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
 
 /* ======================
 
