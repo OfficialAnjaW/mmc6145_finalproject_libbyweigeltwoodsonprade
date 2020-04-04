@@ -296,6 +296,7 @@ h5.card-title {
 .contact-location-left-widget-title {
   color: #0c005a;
 }
+<<<<<<< HEAD
 .map-responsive{
 	overflow:hidden;
 	padding-bottom:56.25%;
@@ -309,6 +310,8 @@ h5.card-title {
 	width:100%;
 	position:absolute;
 }
+=======
+>>>>>>> f7c0f5f6c40e7df6d7dcbf6f9ba4771e647a7a2e
 
 /* ======================
 
