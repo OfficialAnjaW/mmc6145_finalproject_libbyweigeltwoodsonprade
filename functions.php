@@ -238,7 +238,39 @@
         'after_title'   => '</h3>'
     ));
 
-    // Widget Area 11: Blog Widget A ** NEW FOR FINAL PROJECT*************
+    // Widget Area 11a: Blog Widget A ** NEW FOR FINAL PROJECT*************
+    register_sidebar(array(
+        'name'          => ('Carousel Area 1'),
+        'id'            => 'carousel-area-1',
+        'description'   => 'Carousel area 1 for blog home',
+        'before_widget' => '<div class="carousel-blog1-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="carousel-blog1-widget-blog-home">',
+        'after_title'   => '</h3>'
+    ));
+    // Widget Area 11b: Blog Widget A ** NEW FOR FINAL PROJECT*************
+    register_sidebar(array(
+        'name'          => ('Carousel Area 2'),
+        'id'            => 'carousel-area-2',
+        'description'   => 'Carousel area 2 for blog home',
+        'before_widget' => '<div class="carousel-blog2-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="carousel-blog2-widget-blog-home">',
+        'after_title'   => '</h3>'
+    ));
+    // Widget Area 11c: Blog Widget A ** NEW FOR FINAL PROJECT*************
+    register_sidebar(array(
+        'name'          => ('Carousel Area 3'),
+        'id'            => 'carousel-area-3',
+        'description'   => 'Carousel area 3 for blog home',
+        'before_widget' => '<div class="carousel-blog3-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="carousel-blog3-widget-blog-home">',
+        'after_title'   => '</h3>'
+    ));
+
+
+    // Widget Area 12: Blog Widget A ** NEW FOR FINAL PROJECT*************
     register_sidebar(array(
         'name'          => ('Trucks Hero Image'),
         'id'            => 'trucks-hero-image',
@@ -248,6 +280,45 @@
         'before_title'  => '<h3 class="trucks-widget-hero-for-index">',
       'after_title'   => '</h3>'
     ));
+
+
+    // Widget Area 12a: Blog Widget A ** NEW FOR FINAL PROJECT*************
+    register_sidebar(array(
+        'name'          => ('Truck Carousel 1'),
+        'id'            => 'truck-carousel-area-1',
+        'description'   => 'Truck carousel area 1',
+        'before_widget' => '<div class="truck-carousel1-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="truck-carousel1-widget-truck-page">',
+        'after_title'   => '</h3>'
+    ));
+
+    // Widget Area 12b: Blog Widget A ** NEW FOR FINAL PROJECT*************
+    register_sidebar(array(
+        'name'          => ('Truck Carousel 2'),
+        'id'            => 'truck-carousel-area-2',
+        'description'   => 'Truck carousel area 2',
+        'before_widget' => '<div class="truck-carousel2-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="truck-carousel2-widget-truck-page">',
+        'after_title'   => '</h3>'
+    ));
+
+
+    // Widget Area 12c: Blog Widget A ** NEW FOR FINAL PROJECT*************
+    register_sidebar(array(
+        'name'          => ('Truck Carousel 3'),
+        'id'            => 'truck-carousel-area-3',
+        'description'   => 'Truck carousel area 3',
+        'before_widget' => '<div class="truck-carousel3-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="truck-carousel3-widget-truck-page">',
+        'after_title'   => '</h3>'
+    ));
+
+
+
+
 
     // Contact Us Hero Image
     register_sidebar(array(

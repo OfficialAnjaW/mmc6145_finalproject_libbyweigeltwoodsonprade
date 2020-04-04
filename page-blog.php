@@ -5,8 +5,6 @@ Template Post Type: page
 */
 ?>
 
-
-
 <?php get_header(); ?>
 <!--here is the smart slider plugin - hero image, install widget area, will need to be styled on remote site -->
 
@@ -18,10 +16,14 @@ Template Post Type: page
 
 <div class="container">
 
-  <!-- blog slider 1, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
+  <!-- blog slider 1, here is the WP Carousel Plugin -->
     <h2 class="blogpadding">Blog Category A</h2>
-    <!-- Widget Area 11: Blog A--->
 
+    <div class="row">
+      <div class="col-md-12">
+        <?php dynamic_sidebar('Carousel-area-1'); ?>
+      </div>
+    </div>
 
   <!-- paralax scroll 1 here, hand code -->
 
@@ -31,10 +33,15 @@ Template Post Type: page
     </div>
 
 
-  <!-----blog slider 2, here is the WP Carousel Plugin - will need to add as posts to Woo Commerce and then add to WP Carousel -->
-
+  <!-----blog slider 2, here is the WP Carousel Plugin -->
 
     <h2 class="blogpadding">Blog Category B</h2>
+
+    <div class="row">
+      <div class="col-md-12">
+        <?php dynamic_sidebar('Carousel-area-2'); ?>
+      </div>
+    </div>
 
 
 
@@ -46,8 +53,15 @@ Template Post Type: page
     </div>
 
 
+  <!-----blog slider 3, here is the WP Carousel Plugin -->
 
     <h2 class="blogpadding">Blog Category C</h2>
+
+    <div class="row">
+      <div class="col-md-12">
+        <?php dynamic_sidebar('Carousel-area-3'); ?>
+      </div>
+    </div>
 
 
 </div>
