@@ -269,7 +269,6 @@
         'after_title'   => '</h3>'
     ));
 
-
     // Widget Area 12: Blog Widget A ** NEW FOR FINAL PROJECT*************
     register_sidebar(array(
         'name'          => ('Trucks Hero Image'),
@@ -280,7 +279,6 @@
         'before_title'  => '<h3 class="trucks-widget-hero-for-index">',
       'after_title'   => '</h3>'
     ));
-
 
     // Widget Area 12a: Blog Widget A ** NEW FOR FINAL PROJECT*************
     register_sidebar(array(
@@ -304,7 +302,6 @@
         'after_title'   => '</h3>'
     ));
 
-
     // Widget Area 12c: Blog Widget A ** NEW FOR FINAL PROJECT*************
     register_sidebar(array(
         'name'          => ('Truck Carousel 3'),
@@ -315,10 +312,6 @@
         'before_title'  => '<h3 class="truck-carousel3-widget-truck-page">',
         'after_title'   => '</h3>'
     ));
-
-
-
-
 
     // Contact Us Hero Image
     register_sidebar(array(
