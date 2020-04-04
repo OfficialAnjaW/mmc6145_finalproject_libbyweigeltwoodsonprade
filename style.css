@@ -63,37 +63,48 @@ header img {
   object-fit: contain;
 }
 
-/* Header Top Section */
+/* Top Navigation Menu */
 
-.header-top {
-  padding: 1% 0;
+.top-menu-container {
+  background: #ffffff;
+  padding: 0 4% 1% 4%;
 }
 
-.header-top p {
-  color: #ff0000;
+.top-menu-class a {
+  color: #0c005a;
   font-weight: 600;
-}
-
-/* Navigation Menu */
-
-.main-menu-background {
-  padding-top: 1%;
-  background: #0c005a;
-}
-
-.main-navigation a {
-  color: #ffffff;
-  font-weight: 600;
+  margin: 0 3rem;
   text-decoration: none;
 }
 
-.main-navigation a:hover {
+.top-menu-class a:hover {
+  color: #bc2525;
+}
+
+.top-menu-class li {
+  display: inline;
+}
+
+/* Main Navigation Menu */
+
+.main-menu-container {
+  background: #0c005a;
+  padding: 2% 4% 1% 4%;
+}
+
+.main-menu-class a {
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 3rem;
+  text-decoration: none;
+}
+
+.main-menu-class a:hover {
   color: #bc2525;
 }
 
 .main-menu-class li {
   display: inline;
-  margin: 0 4rem;
 }
 
 nav.main-navigation {
@@ -244,11 +255,10 @@ h5.card-title {
     display: inline-block;
     padding: 0;
 }
-#sp-wp-carousel-free-id-108 .wpcp-single-item {
-  height: 275px;
-}
-#sp-wp-carousel-free-id-108 .wpcp-slide-image {
-  padding-top: 10px;
+.wpcp-carousel-wrapper #sp-wp-carousel-free-id-109.wpcp-post-carousel .wpcp-single-item {
+    background: #eaeaea;
+    height: 275px;
+    padding-top: 10px;
 }
 
 /* ======================
