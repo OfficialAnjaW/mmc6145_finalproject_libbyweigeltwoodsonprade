@@ -322,6 +322,7 @@
         'before_title'  => '<h3 class="right-sidebar-widget-title">',
         'after_title'   => '</h3>'
     ));
+}
 
   add_action('widgets_init', 'blank_widgets_init');
 
