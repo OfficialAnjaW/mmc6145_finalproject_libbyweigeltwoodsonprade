@@ -34,15 +34,15 @@ Template Post Type: page
   <section class="contact">
     <h2>Contact Us</h2>
     <div class="row d-flex align-items-baseline">
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
           <img src="<?php echo get_template_directory_uri(); ?>/images/phone.png" alt="phone icon" title="call us"/>
           <a class="btn btn-secondary btn-lg" href="#">Phone</a>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/email.png" alt="email icon" title="email us"/></a>
         <a class="btn btn-secondary btn-lg" href="#">Email</a>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/chat.png" alt="chat icon" title="chat with us"/></a>
         <a class="btn btn-secondary btn-lg" href="#">Specials</a>
       </div>
