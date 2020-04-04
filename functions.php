@@ -64,206 +64,256 @@
 
   add_action('init', 'register_my_menus');
 
-/*===============================
+  function blank_widgets_init(){
 
-  Widget Areas
+/*===================================
+
+  Widget Areas footer.php
 
 =====================================*/
 
-function blank_widgets_init(){
+    // Widget Area: Left Footer
+    register_sidebar(array(
+        'name'          => ('Left Footer'),
+        'id'            => 'left-footer',
+        'description'   => 'Left Widget Area in Footer',
+        'before_widget' => '<div class="widget-left-footer">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="left-footer-widget-title">',
+        'after_title'   => '</h5>'
+    ));
 
-  // Widget Area 1: Homepage Hero Image
-  register_sidebar(array(
-      'name'          => ('Hero Image'),
-      'id'            => 'hero-image',
-      'description'   => 'Hero Image on Homepage',
-      'before_widget' => '<div class="widget-hero-image">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="hero-image-widget-title">',
+    // Widget Area: Middle Footer
+    register_sidebar(array(
+        'name'          => ('Middle Footer'),
+        'id'            => 'middle-footer',
+        'description'   => 'Middle Widget Area in Footer',
+        'before_widget' => '<div class="widget-middle-footer">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="middle-footer-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+    // Widget Area: Right Footer
+    register_sidebar(array(
+        'name'          => ('Right Footer'),
+        'id'            => 'right-footer',
+        'description'   => 'Right Widget Area in Footer',
+        'before_widget' => '<div class="widget-right-footer">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="right-footer-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+/*===================================
+
+  Widget Areas page-home.php
+
+=====================================*/
+
+    // Widget Area: Homepage Hero Image
+    register_sidebar(array(
+        'name'          => ('Homepage Hero Image'),
+        'id'            => 'homepage-hero-image',
+        'description'   => 'Hero Image on Homepage',
+        'before_widget' => '<div class="widget-homepage-hero-image">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="homepage-hero-image-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
+    // Widget Area: Homepage Truck Types
+    register_sidebar(array(
+        'name'          => ('Homepage Truck Types'),
+        'id'            => 'homepage-truck-types',
+        'description'   => 'Truck Types Section on Homepage',
+        'before_widget' => '<div class="widget-homepage-truck-types">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="homepage-truck-types-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+    // Widget Area: Homepage Middle Image
+    register_sidebar(array(
+        'name'          => ('Homepage Middle Image'),
+        'id'            => 'homepage-middle-image',
+        'description'   => 'Middle Image on Homepage',
+        'before_widget' => '<div class="widget-homepage-middle-image">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="homepage-middle-image-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+    // Widget Area: Homepage Services One
+    register_sidebar(array(
+        'name'          => ('Homepage Serives One'),
+        'id'            => 'homepage-services-one',
+        'description'   => 'Services One on Homepage',
+        'before_widget' => '<div class="widget-homepage-services-one">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="homepage-services-one-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+    // Widget Area: Homepage Services Two
+    register_sidebar(array(
+        'name'          => ('Homepage Serives Two'),
+        'id'            => 'homepage-services-two',
+        'description'   => 'Services Two on Homepage',
+        'before_widget' => '<div class="widget-homepage-services-two">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="homepage-services-two-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+    // Widget Area: Homepage Services Three
+    register_sidebar(array(
+        'name'          => ('Homepage Serives Three'),
+        'id'            => 'homepage-services-three',
+        'description'   => 'Services Three on Homepage',
+        'before_widget' => '<div class="widget-homepage-services-three">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="homepage-services-three-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+    // Widget Area: Homepage Services Four
+    register_sidebar(array(
+        'name'          => ('Homepage Serives Four'),
+        'id'            => 'homepage-services-four',
+        'description'   => 'Services Four on Homepage',
+        'before_widget' => '<div class="widget-homepage-services-four">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="homepage-services-four-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+    // Widget Area: Homepage Services Five
+    register_sidebar(array(
+        'name'          => ('Homepage Serives Five'),
+        'id'            => 'homepage-services-five',
+        'description'   => 'Services Five on Homepage',
+        'before_widget' => '<div class="widget-homepage-services-five">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="homepage-services-five-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+    // Widget Area: Homepage Locations One
+    register_sidebar(array(
+        'name'          => ('Homepage Locations One'),
+        'id'            => 'homepage-locations-one',
+        'description'   => 'Locations One on Homepage',
+        'before_widget' => '<div class="widget-homepage-locations-one">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="homepage-locations-one-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+    // Widget Area: Homepage Locations Two
+    register_sidebar(array(
+        'name'          => ('Homepage Locations Two'),
+        'id'            => 'homepage-locations-two',
+        'description'   => 'Locations Two on Homepage',
+        'before_widget' => '<div class="widget-homepage-locations-two">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="homepage-locations-two-widget-title">',
+        'after_title'   => '</h5>'
+    ));
+
+/*===============================================================
+
+  Widget Areas index.php and page-trucks.php
+
+====================================================================*/
+
+    // Widget Area 11: Blog Widget A ** NEW FOR FINAL PROJECT*************
+    register_sidebar(array(
+        'name'          => ('Blog Hero Image'),
+        'id'            => 'blog-hero-image',
+        'description'   => 'Blog Widget Area for Hero Image',
+        'before_widget' => '<div class="blog-widget-hero-area">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="blog-widget-hero-for-index">',
+        'after_title'   => '</h3>'
+    ));
+
+    // Widget Area 11: Blog Widget A ** NEW FOR FINAL PROJECT*************
+    register_sidebar(array(
+        'name'          => ('Trucks Hero Image'),
+        'id'            => 'trucks-hero-image',
+        'description'   => 'Trucks Widget Area for Hero',
+        'before_widget' => '<div class="trucks-widget-hero-area">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="trucks-widget-hero-for-index">',
       'after_title'   => '</h3>'
-  ));
+    ));
 
-  // Widget Area 2: About Us
-  register_sidebar(array(
-      'name'          => ('About Us'),
-      'id'            => 'about-us',
-      'description'   => 'Homepage About Us Section',
-      'before_widget' => '<div class="widget-about-us">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h5 class="about-us-widget-title">',
-      'after_title'   => '</h5>'
-  ));
+    // Contact Us Hero Image
+    register_sidebar(array(
+        'name'          => ('Contact Us Hero Image'),
+        'id'            => 'contact-hero-image',
+        'description'   => 'Hero Image for Contact Page',
+        'before_widget' => '<div class="widget-contact-hero-image">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="contact-hero-image-widget-title">',
+        'after_title'   => '</h3>'
+    ));
 
-  // Widget Area 3: Bottom Left Homepage
-  register_sidebar(array(
-      'name'          => ('Bottom Left Homepage'),
-      'id'            => 'bottom-left-homepage',
-      'description'   => 'Bottom Left Section on Homepage',
-      'before_widget' => '<div class="widget-bottom-left-homepage">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h5 class="bottom-left-homepage-widget-title">',
-      'after_title'   => '</h5>'
-  ));
+    // Location Left Widget
+    register_sidebar(array(
+        'name'          => ('Left Location Widget'),
+        'id'            => 'contact-location-left',
+        'description'   => 'Left widget for location section',
+        'before_widget' => '<div class="widget-contact-location-left">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="contact-location-left-widget-title">',
+        'after_title'   => '</h3>'
+    ));
 
-  // Widget Area 4: Bottom Middle Homepage
-  register_sidebar(array(
-      'name'          => ('Bottom Middle Homepage'),
-      'id'            => 'bottom-middle-homepage',
-      'description'   => 'Bottom Middle Section on Homepage',
-      'before_widget' => '<div class="widget-bottom-middle-homepage">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h5 class="bottom-middle-homepage-widget-title">',
-      'after_title'   => '</h5>'
-  ));
+    // Location Right Widget
+    register_sidebar(array(
+        'name'          => ('Right Location Widget'),
+        'id'            => 'contact-location-right',
+        'description'   => 'Right widget for location section',
+        'before_widget' => '<div class="widget-contact-location-right">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="contact-location-right-widget-title">',
+        'after_title'   => '</h3>'
+    ));
 
-  // Widget Area 5: Bottom Right Homepage
-  register_sidebar(array(
-      'name'          => ('Bottom Right Homepage'),
-      'id'            => 'bottom-right-homepage',
-      'description'   => 'Bottom Right Section on Homepage',
-      'before_widget' => '<div class="widget-bottom-right-homepage">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h5 class="bottom-right-homepage-widget-title">',
-      'after_title'   => '</h5>'
-  ));
+    // Post Hero Image
+    register_sidebar(array(
+        'name'          => ('Post Hero Image'),
+        'id'            => 'post-hero-image',
+        'description'   => 'Hero Image for Post Pages',
+        'before_widget' => '<div class="widget-post-hero-image">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="post-image-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+    // Post Hero Image
+    register_sidebar(array(
+        'name'          => ('Recent Posts'),
+        'id'            => 'recent-posts',
+        'description'   => 'Recent Posts Slider Post Pages',
+        'before_widget' => '<div class="widget-recent-posts">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="recent-posts-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+    // Post Hero Image
+    register_sidebar(array(
+        'name'          => ('Comments'),
+        'id'            => 'comments',
+        'description'   => 'Comments Widget Post Pages',
+        'before_widget' => '<div class="widget-comments">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="comments-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+  }
 
-  // Widget Area 6: Left Footer
-  register_sidebar(array(
-      'name'          => ('Left Footer'),
-      'id'            => 'left-footer',
-      'description'   => 'Left Widget Area in Footer',
-      'before_widget' => '<div class="widget-left-footer">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h5 class="left-footer-widget-title">',
-      'after_title'   => '</h5>'
-  ));
-
-  // Widget Area 7: Middle Footer
-  register_sidebar(array(
-      'name'          => ('Middle Footer'),
-      'id'            => 'middle-footer',
-      'description'   => 'Middle Widget Area in Footer',
-      'before_widget' => '<div class="widget-middle-footer">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h5 class="middle-footer-widget-title">',
-      'after_title'   => '</h5>'
-  ));
-
-  // Widget Area 8: Right Footer
-  register_sidebar(array(
-      'name'          => ('Right Footer'),
-      'id'            => 'right-footer',
-      'description'   => 'Right Widget Area in Footer',
-      'before_widget' => '<div class="widget-right-footer">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h5 class="right-footer-widget-title">',
-      'after_title'   => '</h5>'
-  ));
-
-  // Widget Area 10: Pages Hero Image
-  register_sidebar(array(
-      'name'          => ('Right Sidebar Pages Hero Image'),
-      'id'            => 'right-sidebar-pages-hero-image',
-      'description'   => 'Hero Image for Pages with Right Sidebar',
-      'before_widget' => '<div class="widget-right-sidebar-pages-hero-image">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="right-sidebar-pages-hero-image-widget-title">',
-      'after_title'   => '</h3>'
-  ));
-  
-  /*===============================================================
-
-    NEW Widget Areas for index.php and page-trucks.php
-
-  ====================================================================*/
-
-  // Widget Area 11: Blog Widget A ** NEW FOR FINAL PROJECT*************
-  register_sidebar(array(
-      'name'          => ('Blog Hero Image'),
-      'id'            => 'blog-hero-image',
-      'description'   => 'Blog Widget Area for Hero Image',
-      'before_widget' => '<div class="blog-widget-hero-area">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="blog-widget-hero-for-index">',
-      'after_title'   => '</h3>'
-  ));
-
-  // Widget Area 11: Blog Widget A ** NEW FOR FINAL PROJECT*************
-  register_sidebar(array(
-      'name'          => ('Trucks Hero Image'),
-      'id'            => 'trucks-hero-image',
-      'description'   => 'Trucks Widget Area for Hero',
-      'before_widget' => '<div class="trucks-widget-hero-area">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="trucks-widget-hero-for-index">',
-    'after_title'   => '</h3>'
-  ));
-  
-  // Contact Us Hero Image
-  register_sidebar(array(
-      'name'          => ('Contact Us Hero Image'),
-      'id'            => 'contact-hero-image',
-      'description'   => 'Hero Image for Contact Page',
-      'before_widget' => '<div class="widget-contact-hero-image">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="contact-hero-image-widget-title">',
-      'after_title'   => '</h3>'
-  ));
-
-  // Location Left Widget
-  register_sidebar(array(
-      'name'          => ('Left Location Widget'),
-      'id'            => 'contact-location-left',
-      'description'   => 'Left widget for location section',
-      'before_widget' => '<div class="widget-contact-location-left">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="contact-location-left-widget-title">',
-      'after_title'   => '</h3>'
-  ));
-
-  // Location Right Widget
-  register_sidebar(array(
-      'name'          => ('Right Location Widget'),
-      'id'            => 'contact-location-right',
-      'description'   => 'Right widget for location section',
-      'before_widget' => '<div class="widget-contact-location-right">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="contact-location-right-widget-title">',
-      'after_title'   => '</h3>'
-  ));
-
-  // Post Hero Image
-  register_sidebar(array(
-      'name'          => ('Post Hero Image'),
-      'id'            => 'post-hero-image',
-      'description'   => 'Hero Image for Post Pages',
-      'before_widget' => '<div class="widget-post-hero-image">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="post-image-widget-title">',
-      'after_title'   => '</h3>'
-  ));
-  // Post Hero Image
-  register_sidebar(array(
-      'name'          => ('Recent Posts'),
-      'id'            => 'recent-posts',
-      'description'   => 'Recent Posts Slider Post Pages',
-      'before_widget' => '<div class="widget-recent-posts">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="recent-posts-widget-title">',
-      'after_title'   => '</h3>'
-  ));
-  // Post Hero Image
-  register_sidebar(array(
-      'name'          => ('Comments'),
-      'id'            => 'comments',
-      'description'   => 'Comments Widget Post Pages',
-      'before_widget' => '<div class="widget-comments">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="comments-widget-title">',
-      'after_title'   => '</h3>'
-  ));
-}
-
-add_action('widgets_init', 'blank_widgets_init');
+  add_action('widgets_init', 'blank_widgets_init');
 
 ?>

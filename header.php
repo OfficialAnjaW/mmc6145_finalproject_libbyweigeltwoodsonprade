@@ -19,7 +19,7 @@
 
     <!-- Header -->
     <header>
-      
+
       <!--  Menu/Navigation Bar One -->
       <div class="row top-menu-container">
 
@@ -34,7 +34,7 @@
 
         <!--  Top Menu -->
         <div class="col-lg-9 d-flex align-items-center justify-content-around">
-          <nav class="main-menu-nav">
+          <nav class="top-menu-nav">
             <?php
               if(has_nav_menu('top-menu')){
                 wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
@@ -53,10 +53,6 @@
           <!-- Main Menu -->
           <div class="col-lg-12 d-flex justify-content-around">
             <nav class="main-menu-nav">
-              
-          <!--  Menu/Navigation Bar -->
-          <div class="col-lg-9 d-flex align-items-center">
-            <nav>
               <?php
                 if(has_nav_menu('main-menu')){
                   wp_nav_menu(array('theme_location' => 'main-menu' , 'container_class' => 'main-menu-class'));
@@ -66,6 +62,7 @@
               ?>
             </nav>
           </div>
+
         </div>
 
     </header>

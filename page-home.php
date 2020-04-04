@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Homepage Layout
+Template Name: Homepage
 Template Post Type: page
 */
 
@@ -9,46 +9,80 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
-  <!-- Widget Area 2: Hero Image -->
+  <!-- Widget Area: Homepage Hero Image -->
   <div class="row">
     <div class="col-md-12">
-      <?php dynamic_sidebar('hero-image'); ?>
+      <?php dynamic_sidebar('homepage-hero-image'); ?>
     </div>
   </div>
 
-  <div class="container">
+  <main>
 
-    <main>
-
-      <!-- Widget Area 3: About Us -->
+    <!-- Widget Area: Homepage Truck Types -->
+    <div class="container container-truck-types">
       <div class="row">
         <div class="col-md-12">
-          <?php dynamic_sidebar('about-us'); ?>
+          <?php dynamic_sidebar('homepage-truck-types'); ?>
         </div>
       </div>
+    </div>
 
-      <!-- Widget Bottom (3) Areas -->
+    <!-- Widget Area: Homepage Middle Image -->
+    <div class="row">
+      <div class="col-md-12">
+        <?php dynamic_sidebar('homepage-middle-image'); ?>
+      </div>
+    </div>
+
+    <!-- Widget Area: Homepage Services Section -->
+    <div class="container services-section">
       <div class="row">
 
-        <!-- Widget Area 4: Bottom Left Homepage -->
-        <div class="col-md-4 home-widget">
-          <?php dynamic_sidebar('bottom-left-homepage'); ?>
+        <!-- Widget Area: Homepage Services One -->
+        <div class="col-md-2">
+          <?php dynamic_sidebar('homepage-services-one'); ?>
         </div>
 
-        <!-- Widget Area 5: Bottom Middle Homepage -->
-        <div class="col-md-4 home-widget">
-          <?php dynamic_sidebar('bottom-middle-homepage'); ?>
+        <!-- Widget Area: Homepage Services Two -->
+        <div class="col-md-2">
+          <?php dynamic_sidebar('homepage-services-two'); ?>
         </div>
 
-        <!-- Widget Area 6: Bottom Right Homepage -->
-        <div class="col-md-4 home-widget">
-          <?php dynamic_sidebar('bottom-right-homepage'); ?>
+        <!-- Widget Area: Homepage Services Three -->
+        <div class="col-md-2">
+          <?php dynamic_sidebar('homepage-services-three'); ?>
+        </div>
+
+        <!-- Widget Area: Homepage Services Four -->
+        <div class="col-md-2">
+          <?php dynamic_sidebar('homepage-services-four'); ?>
+        </div>
+
+        <!-- Widget Area: Homepage Services Five -->
+        <div class="col-md-2">
+          <?php dynamic_sidebar('homepage-services-five'); ?>
         </div>
 
       </div>
+    </div>
 
-    </main>
+    <!-- Widget Area: Homepage Locations Section -->
+    <div class="container locations-section">
+      <div class="row">
 
-  </div>
+        <!-- Widget Area: Homepage Locations One -->
+        <div class="col-md-6">
+          <?php dynamic_sidebar('homepage-locations-one'); ?>
+        </div>
+
+        <!-- Widget Area: Homepage Locations Two -->
+        <div class="col-md-6">
+          <?php dynamic_sidebar('homepage-locations-two'); ?>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
 
 <?php get_footer(); ?>
