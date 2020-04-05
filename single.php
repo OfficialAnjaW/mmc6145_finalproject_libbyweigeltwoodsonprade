@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
 <!-- ======================= Hero Image Widget ==================-->
-    <?php dynamic_sidebar('post-hero-image'); ?>
+  <?php dynamic_sidebar('post-hero-image'); ?>
 
-<main class="container">
+  <main class="container">
 
 <!-- ======================= Blog Content ==================-->
     <div class="row justify-content-center posts">
-      <main class="col-lg-9 col-md-8 col-sm-12">
+      <div class="col-lg-9 col-md-8 col-sm-12">
         <?php
           if(have_posts()) {
             while(have_posts()){
@@ -19,7 +19,7 @@
           <?php  } //this ends while loop
           }// this ends if statement
         ?>
-      </main>
+      </div>
 <!-- ======================= Blog Sidebar ==================-->
       <aside class="col-lg-3 col-md-4 col-sm-12 sidebar">
         <?php get_sidebar(); ?>
@@ -27,24 +27,23 @@
     </div>
 
 <!-- ======================= Recent Posts Slider ==================-->
-  <section class="recent-posts" id="recent-posts">
-    <h2>Related Posts</h2>
+    <section class="recent-posts" id="recent-posts">
+      <h2>Related Posts</h2>
       <div class="row">
         <div class="col-md-12">
           <?php dynamic_sidebar('recent-posts'); ?>
         </div>
       </div>
-  </section>
-
+    </section>
 
   <!-- ======================= Comments ==================-->
-  <section>
-    <div class="row">
-      <div class="col-md-12">
-        <?php dynamic_sidebar('comments'); ?>
+    <section>
+      <div class="row">
+        <div class="col-md-12">
+          <?php dynamic_sidebar('comments'); ?>
+        </div>
       </div>
-    </div>
-    </main>
-
+    </section>
+  </main>
 
 <?php get_footer(); ?>
