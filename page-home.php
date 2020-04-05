@@ -36,30 +36,38 @@ Template Post Type: page
 
     <!-- Widget Area: Homepage Services Section -->
     <div class="container services-section">
+
       <div class="row">
+        <!-- Widget Area: Homepage Services Title -->
+        <div class="col-md-12">
+          <?php dynamic_sidebar('homepage-services-title'); ?>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-around">
 
         <!-- Widget Area: Homepage Services One -->
-        <div class="col-md-2">
+        <div class="col-sm-2">
           <?php dynamic_sidebar('homepage-services-one'); ?>
         </div>
 
         <!-- Widget Area: Homepage Services Two -->
-        <div class="col-md-2">
+        <div class="col-sm-2">
           <?php dynamic_sidebar('homepage-services-two'); ?>
         </div>
 
         <!-- Widget Area: Homepage Services Three -->
-        <div class="col-md-2">
+        <div class="col-sm-2">
           <?php dynamic_sidebar('homepage-services-three'); ?>
         </div>
 
         <!-- Widget Area: Homepage Services Four -->
-        <div class="col-md-2">
+        <div class="col-sm-2">
           <?php dynamic_sidebar('homepage-services-four'); ?>
         </div>
 
         <!-- Widget Area: Homepage Services Five -->
-        <div class="col-md-2">
+        <div class="col-sm-2">
           <?php dynamic_sidebar('homepage-services-five'); ?>
         </div>
 
@@ -68,6 +76,14 @@ Template Post Type: page
 
     <!-- Widget Area: Homepage Locations Section -->
     <div class="container locations-section">
+
+      <div class="row">
+        <!-- Widget Area: Homepage Locations Title -->
+        <div class="col-md-12">
+          <?php dynamic_sidebar('homepage-locations-title'); ?>
+        </div>
+      </div>
+
       <div class="row">
 
         <!-- Widget Area: Homepage Locations One -->

@@ -156,8 +156,8 @@ register_sidebar(array(
         'description'   => 'Truck Types Section on Homepage',
         'before_widget' => '<div class="widget-homepage-truck-types">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="homepage-truck-types-widget-title">',
-        'after_title'   => '</h5>'
+        'before_title'  => '<h3 class="homepage-truck-types-widget-title">',
+        'after_title'   => '</h3>'
     ));
 
     // Widget Area: Homepage Middle Image
@@ -167,8 +167,19 @@ register_sidebar(array(
         'description'   => 'Middle Image on Homepage',
         'before_widget' => '<div class="widget-homepage-middle-image">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="homepage-middle-image-widget-title">',
-        'after_title'   => '</h5>'
+        'before_title'  => '<h3 class="homepage-middle-image-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
+    // Widget Area: Homepage Services Header
+    register_sidebar(array(
+        'name'          => ('Homepage Services Title'),
+        'id'            => 'homepage-services-title',
+        'description'   => 'Services Title on Homepage',
+        'before_widget' => '<div class="widget-homepage-services-title">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="homepage-services-title-widget-title">',
+        'after_title'   => '</h3>'
     ));
 
     // Widget Area: Homepage Services One
@@ -178,8 +189,8 @@ register_sidebar(array(
         'description'   => 'Services One on Homepage',
         'before_widget' => '<div class="widget-homepage-services-one">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="homepage-services-one-widget-title">',
-        'after_title'   => '</h5>'
+        'before_title'  => '<h3 class="homepage-services-one-widget-title">',
+        'after_title'   => '</h3>'
     ));
 
     // Widget Area: Homepage Services Two
@@ -189,8 +200,8 @@ register_sidebar(array(
         'description'   => 'Services Two on Homepage',
         'before_widget' => '<div class="widget-homepage-services-two">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="homepage-services-two-widget-title">',
-        'after_title'   => '</h5>'
+        'before_title'  => '<h3 class="homepage-services-two-widget-title">',
+        'after_title'   => '</h3>'
     ));
 
     // Widget Area: Homepage Services Three
@@ -200,8 +211,8 @@ register_sidebar(array(
         'description'   => 'Services Three on Homepage',
         'before_widget' => '<div class="widget-homepage-services-three">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="homepage-services-three-widget-title">',
-        'after_title'   => '</h5>'
+        'before_title'  => '<h3 class="homepage-services-three-widget-title">',
+        'after_title'   => '</h3>'
     ));
 
     // Widget Area: Homepage Services Four
@@ -211,8 +222,8 @@ register_sidebar(array(
         'description'   => 'Services Four on Homepage',
         'before_widget' => '<div class="widget-homepage-services-four">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="homepage-services-four-widget-title">',
-        'after_title'   => '</h5>'
+        'before_title'  => '<h3 class="homepage-services-four-widget-title">',
+        'after_title'   => '</h3>'
     ));
 
     // Widget Area: Homepage Services Five
@@ -222,8 +233,19 @@ register_sidebar(array(
         'description'   => 'Services Five on Homepage',
         'before_widget' => '<div class="widget-homepage-services-five">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="homepage-services-five-widget-title">',
-        'after_title'   => '</h5>'
+        'before_title'  => '<h3 class="homepage-services-five-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
+    // Widget Area: Homepage Locations Header
+    register_sidebar(array(
+        'name'          => ('Homepage Locations Title'),
+        'id'            => 'homepage-locations-title',
+        'description'   => 'Locations Title on Homepage',
+        'before_widget' => '<div class="widget-homepage-locations-title">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="homepage-locations-title-widget-title">',
+        'after_title'   => '</h3>'
     ));
 
     // Widget Area: Homepage Locations One
@@ -233,8 +255,8 @@ register_sidebar(array(
         'description'   => 'Locations One on Homepage',
         'before_widget' => '<div class="widget-homepage-locations-one">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="homepage-locations-one-widget-title">',
-        'after_title'   => '</h5>'
+        'before_title'  => '<h3 class="homepage-locations-one-widget-title">',
+        'after_title'   => '</h3>'
     ));
 
     // Widget Area: Homepage Locations Two
@@ -244,8 +266,8 @@ register_sidebar(array(
         'description'   => 'Locations Two on Homepage',
         'before_widget' => '<div class="widget-homepage-locations-two">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="homepage-locations-two-widget-title">',
-        'after_title'   => '</h5>'
+        'before_title'  => '<h3 class="homepage-locations-two-widget-title">',
+        'after_title'   => '</h3>'
     ));
 
 /*===============================================================

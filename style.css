@@ -292,7 +292,25 @@ h5.card-title {
 
 ======================== */
 
+/* Services */
 
+h3.homepage-services-title-widget-title {
+  color: #ffffff;
+}
+
+.services-section {
+  background: #0c005a;
+  padding: 1% 2%;
+}
+
+
+ /* Locations */
+
+h3.homepage-locations-title-widget-title,
+h3.homepage-locations-one-widget-title,
+h3.homepage-locations-two-widget-title {
+  color: #0c005a;
+}
 
 /* ======================
 
