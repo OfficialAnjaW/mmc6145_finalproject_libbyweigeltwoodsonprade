@@ -296,6 +296,11 @@ h5.card-title {
 
 h3.homepage-truck-types-widget-title {
   color: #0c005a;
+  padding-bottom: 2%;
+}
+
+.container-truck-types {
+    padding: 5% 0;
 }
 
 /* Services */
@@ -310,20 +315,27 @@ h3.homepage-services-title-widget-title {
 }
 
 .container.services-section {
+  margin: 5% 0;
   text-align: center;
 }
 
 .widget-homepage-services-title {
+  padding-bottom: 2%;
   text-align: left;
 }
 
 
  /* Locations */
 
-h3.homepage-locations-title-widget-title,
+h3.homepage-locations-title-widget-title {
+  color: #0c005a;
+  padding-bottom: 2%;
+}
+
 h3.homepage-locations-one-widget-title,
 h3.homepage-locations-two-widget-title {
   color: #0c005a;
+  padding-top: 2%;
 }
 
 /* ======================
