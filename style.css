@@ -280,14 +280,6 @@ h5.card-title {
 
 /* ======================
 
-   page.php Template
-
-======================== */
-
-
-
-/* ======================
-
    page-home.php Template
 
 ======================== */
@@ -300,7 +292,7 @@ h3.homepage-truck-types-widget-title {
 }
 
 .container-truck-types {
-    padding: 5% 0;
+    padding: 5% auto;
 }
 
 /* Services */
@@ -335,7 +327,7 @@ h3.homepage-locations-title-widget-title {
 h3.homepage-locations-one-widget-title,
 h3.homepage-locations-two-widget-title {
   color: #0c005a;
-  padding-top: 2%;
+  padding-top: 3%;
 }
 
 /* ======================
