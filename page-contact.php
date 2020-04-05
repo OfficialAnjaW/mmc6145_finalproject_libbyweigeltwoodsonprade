@@ -10,13 +10,9 @@ Template Post Type: page
 <?php get_header(); ?>
 
 <!-- ======================= Hero Image Widget ==================-->
-<main class="container">
-  <section class="row">
-    <div class="col-md-12">
-      <?php dynamic_sidebar('contact-hero-image'); ?>
-    </div>
-  </section>
+    <?php dynamic_sidebar('contact-hero-image'); ?>
 
+<main class="container">
 <!-- ======================= Locations Widgets ==================-->
   <section class="location">
     <h2>Locations</h2>
