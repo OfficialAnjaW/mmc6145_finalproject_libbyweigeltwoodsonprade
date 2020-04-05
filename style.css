@@ -8,7 +8,8 @@
   Text Domain: assignment_theme
 */
 
-/* fonts
+/*
+FONTS:
 font-family: 'Oswald', sans-serif;
 font-family: 'Lato', sans-serif;
 COLORS:
@@ -28,8 +29,18 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Oswald', sans-serif;
+}
+
+h2,
+h3,
+h5 {
+  color: #0c005a;
 }
 
  p {
@@ -119,6 +130,7 @@ footer a {
 
 footer a:hover {
   color: #0c005a;
+  text-decoration: none;
 }
 
 /* Search Widget */
@@ -250,9 +262,9 @@ h5.card-title {
 
 ======================== */
 
-.posts h2, h5 {
+/* .posts h2, h5 {
   color: #0c005a;
-}
+} */
 .sidebar {
   background-color: #eaeaea;
   margin-bottom: 2%;
@@ -267,7 +279,7 @@ h5.card-title {
   padding: 1%;
 }
 .recent-posts h2 {
-  color: white;
+  color: #ffffff;
 }
 .widget-right-sidebar ul {
   list-style-type: none;
@@ -302,8 +314,7 @@ h5.card-title {
 
 /* Truck Types */
 
-h3.homepage-truck-types-widget-title {
-  color: #0c005a;
+.homepage-truck-types-widget-title {
   padding-bottom: 2%;
 }
 
@@ -313,7 +324,7 @@ h3.homepage-truck-types-widget-title {
 
 /* Services */
 
-h3.homepage-services-title-widget-title {
+.homepage-services-title-widget-title {
   color: #ffffff;
 }
 
@@ -335,14 +346,12 @@ h3.homepage-services-title-widget-title {
 
  /* Locations */
 
-h3.homepage-locations-title-widget-title {
-  color: #0c005a;
+.homepage-locations-title-widget-title {
   padding-bottom: 2%;
 }
 
-h3.homepage-locations-one-widget-title,
-h3.homepage-locations-two-widget-title {
-  color: #0c005a;
+.homepage-locations-one-widget-title,
+.homepage-locations-two-widget-title {
   padding-top: 3%;
 }
 
@@ -387,9 +396,9 @@ h3.homepage-locations-two-widget-title {
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.location h2 {
+/* .location h2 {
   color: #0c005a;
-}
+} */
 .contact-location-right-widget-title {
   color: #0c005a;
 }
