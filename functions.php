@@ -173,7 +173,7 @@ register_sidebar(array(
 
     // Widget Area: Homepage Services One
     register_sidebar(array(
-        'name'          => ('Homepage Serives One'),
+        'name'          => ('Homepage Services One'),
         'id'            => 'homepage-services-one',
         'description'   => 'Services One on Homepage',
         'before_widget' => '<div class="widget-homepage-services-one">',
@@ -184,7 +184,7 @@ register_sidebar(array(
 
     // Widget Area: Homepage Services Two
     register_sidebar(array(
-        'name'          => ('Homepage Serives Two'),
+        'name'          => ('Homepage Services Two'),
         'id'            => 'homepage-services-two',
         'description'   => 'Services Two on Homepage',
         'before_widget' => '<div class="widget-homepage-services-two">',
@@ -195,7 +195,7 @@ register_sidebar(array(
 
     // Widget Area: Homepage Services Three
     register_sidebar(array(
-        'name'          => ('Homepage Serives Three'),
+        'name'          => ('Homepage Services Three'),
         'id'            => 'homepage-services-three',
         'description'   => 'Services Three on Homepage',
         'before_widget' => '<div class="widget-homepage-services-three">',
@@ -206,7 +206,7 @@ register_sidebar(array(
 
     // Widget Area: Homepage Services Four
     register_sidebar(array(
-        'name'          => ('Homepage Serives Four'),
+        'name'          => ('Homepage Services Four'),
         'id'            => 'homepage-services-four',
         'description'   => 'Services Four on Homepage',
         'before_widget' => '<div class="widget-homepage-services-four">',
@@ -217,7 +217,7 @@ register_sidebar(array(
 
     // Widget Area: Homepage Services Five
     register_sidebar(array(
-        'name'          => ('Homepage Serives Five'),
+        'name'          => ('Homepage Services Five'),
         'id'            => 'homepage-services-five',
         'description'   => 'Services Five on Homepage',
         'before_widget' => '<div class="widget-homepage-services-five">',
