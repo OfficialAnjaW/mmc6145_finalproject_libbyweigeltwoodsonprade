@@ -292,7 +292,7 @@ h3.homepage-truck-types-widget-title {
 }
 
 .container-truck-types {
-    padding: 5% auto;
+    padding: 5% 0;
 }
 
 /* Services */
@@ -307,7 +307,7 @@ h3.homepage-services-title-widget-title {
 }
 
 .container.services-section {
-  margin: 5% 0;
+  margin: 5% auto;
   text-align: center;
 }
 
