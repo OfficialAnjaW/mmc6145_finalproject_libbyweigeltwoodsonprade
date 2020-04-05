@@ -230,6 +230,15 @@ h5.card-title {
 }
 /* ======================
 
+  page-about.php code
+
+======================== */
+.widget-about-main {
+  margin-top: 2%;
+}
+
+/* ======================
+
    single.php Template
 
 ======================== */
