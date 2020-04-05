@@ -21,7 +21,9 @@ Template Post Type: page
 
     <div class="row">
       <div class="col-md-12">
+        <a href="http://www.officialanja.com/trucksparts/this-high-compaction-mack-rear-loader-will-handle-your-toughest-routes/">
         <?php dynamic_sidebar('Carousel-area-1'); ?>
+      </a>
       </div>
     </div>
 
@@ -33,7 +35,7 @@ Template Post Type: page
     </div>
 
 
-  <!-----blog slider 2, here is the WP Carousel Plugin -->
+  <!---blog slider 2, here is the WP Carousel Plugin -->
 
     <h2 class="blogpadding">Blog Category B</h2>
 
