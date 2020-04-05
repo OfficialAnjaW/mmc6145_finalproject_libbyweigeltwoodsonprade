@@ -33,7 +33,7 @@ Template Post Type: page
 
 
       <!-----blog carousel 2, here is the WP Carousel Plugin -->
-        <h2 class="blogpadding">All Other Trucks</h2>
+        <h2 class="blogpadding">Rear Loader Trucks</h2>
         <div class="row">
           <div class="col-md-12">
             <?php dynamic_sidebar('truck-carousel-area-2'); ?>
@@ -49,7 +49,7 @@ Template Post Type: page
 
 
     <!-----blog carousel 3, here is the WP Carousel Plugin -->
-      <h2 class="blogpadding"> Category 3 </h2>
+      <h2 class="blogpadding">All Other Truck Types</h2>
       <div class="row">
         <div class="col-md-12">
           <?php dynamic_sidebar('truck-carousel-area-3'); ?>
