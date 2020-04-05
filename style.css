@@ -292,6 +292,12 @@ h5.card-title {
 
 ======================== */
 
+/* Truck Types */
+
+h3.homepage-truck-types-widget-title {
+  color: #0c005a;
+}
+
 /* Services */
 
 h3.homepage-services-title-widget-title {
@@ -300,7 +306,15 @@ h3.homepage-services-title-widget-title {
 
 .services-section {
   background: #0c005a;
-  padding: 1% 2%;
+  padding: 1% 5%;
+}
+
+.container.services-section {
+  text-align: center;
+}
+
+.widget-homepage-services-title {
+  text-align: left;
 }
 
 

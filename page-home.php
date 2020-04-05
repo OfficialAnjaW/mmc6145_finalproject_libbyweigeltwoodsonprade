@@ -35,7 +35,7 @@ Template Post Type: page
     </div>
 
     <!-- Widget Area: Homepage Services Section -->
-    <div class="container services-section">
+    <div class="services-section">
 
       <div class="row">
         <!-- Widget Area: Homepage Services Title -->
