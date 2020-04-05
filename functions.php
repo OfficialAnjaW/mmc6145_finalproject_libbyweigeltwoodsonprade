@@ -435,6 +435,45 @@ register_sidebar(array(
         'before_title'  => '<h3 class="right-sidebar-widget-title">',
         'after_title'   => '</h3>'
     ));
+    // About Hero Image
+    register_sidebar(array(
+        'name'          => ('About Hero Image'),
+        'id'            => 'about-hero-image',
+        'description'   => 'Hero Image for About Page',
+        'before_widget' => '<div class="widget-about-hero-image">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="about-hero-image-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
+    // Location Left Widget
+    register_sidebar(array(
+        'name'          => ('Left About Widget'),
+        'id'            => 'about-left',
+        'description'   => 'Left widget for About Page',
+        'before_widget' => '<div class="widget-about-left">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="about-left-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+    register_sidebar(array(
+        'name'          => ('Right About Widget'),
+        'id'            => 'about-right',
+        'description'   => 'Right widget for About Page',
+        'before_widget' => '<div class="widget-about-right">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="about-right-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+    register_sidebar(array(
+        'name'          => ('Main About Widget'),
+        'id'            => 'about-main',
+        'description'   => 'Main widget for About Page',
+        'before_widget' => '<div class="widget-about-main">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="about-main-widget-title">',
+        'after_title'   => '</h3>'
+    ));
 }
 
   add_action('widgets_init', 'blank_widgets_init');
