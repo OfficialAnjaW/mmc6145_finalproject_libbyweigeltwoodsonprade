@@ -59,16 +59,12 @@ h1, h2, h3, h4 {
 ======================== */
 
 header img {
-  max-width: 250px;
+  max-width: 180px;
   object-fit: contain;
 }
 
-.header-top {
-  padding: 2% 0;
-}
-
 .widget-header-contact a {
-  color: #ff0000;
+  color: #bc2525;
   font-weight: 600;
   text-decoration: none;
 }
@@ -93,7 +89,7 @@ header img {
 }
 
 .main-menu-class a:hover {
-  color: #bc2525;
+  color: #ff0000;
 }
 
 .main-menu-class li {
@@ -114,6 +110,34 @@ footer {
   background: #bc2525;
   padding: 3% 0;
   margin-top: 5%;
+}
+
+footer a {
+  color: #ffffff;
+  line-height: 2rem;
+}
+
+footer a:hover {
+  color: #0c005a;
+}
+
+/* Search Widget */
+
+footer label {
+  display: none;
+}
+
+#searchsubmit {
+  background: #0c005a;
+  color: white;
+  border: solid 1px #0c005a;
+  border-radius: 5px;
+}
+
+#s {
+  border: solid 2px #0c005a;
+  border-radius: 5px;
+  background: #ffffff;
 }
 
 /* ======================
