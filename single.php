@@ -1,11 +1,9 @@
 <?php get_header(); ?>
+
 <!-- ======================= Hero Image Widget ==================-->
+    <?php dynamic_sidebar('post-hero-image'); ?>
+
 <main class="container">
-  <section class="row">
-    <div class="col-md-12">
-      <?php dynamic_sidebar('post-hero-image'); ?>
-    </div>
-  </section>
 
 <!-- ======================= Blog Content ==================-->
     <div class="row justify-content-center posts">
