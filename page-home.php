@@ -47,28 +47,23 @@ Template Post Type: page
       <div class="row d-flex justify-content-around">
 
         <!-- Widget Area: Homepage Services One -->
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <?php dynamic_sidebar('homepage-services-one'); ?>
         </div>
 
         <!-- Widget Area: Homepage Services Two -->
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <?php dynamic_sidebar('homepage-services-two'); ?>
         </div>
 
         <!-- Widget Area: Homepage Services Three -->
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <?php dynamic_sidebar('homepage-services-three'); ?>
         </div>
 
         <!-- Widget Area: Homepage Services Four -->
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <?php dynamic_sidebar('homepage-services-four'); ?>
-        </div>
-
-        <!-- Widget Area: Homepage Services Five -->
-        <div class="col-sm-2">
-          <?php dynamic_sidebar('homepage-services-five'); ?>
         </div>
 
       </div>
