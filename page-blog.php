@@ -23,7 +23,7 @@ Template Post Type: page
       <div class="col-md-12">
         <a href="http://www.officialanja.com/trucksparts/this-high-compaction-mack-rear-loader-will-handle-your-toughest-routes/">
         <?php dynamic_sidebar('Carousel-area-1'); ?>
-      </a>
+        </a>
       </div>
     </div>
 
@@ -41,7 +41,9 @@ Template Post Type: page
 
     <div class="row">
       <div class="col-md-12">
+        <a href="http://www.officialanja.com/trucksparts/safety-is-job-1-at-trucks-parts/">
         <?php dynamic_sidebar('Carousel-area-2'); ?>
+        </a>
       </div>
     </div>
 
@@ -61,7 +63,9 @@ Template Post Type: page
 
     <div class="row">
       <div class="col-md-12">
+        <a href="http://www.officialanja.com/trucksparts/this-curotto-ready-mack-front-loader-is-a-game-changer/">
         <?php dynamic_sidebar('Carousel-area-3'); ?>
+        </a>
       </div>
     </div>
 
