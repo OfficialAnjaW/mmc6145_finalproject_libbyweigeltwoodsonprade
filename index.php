@@ -17,6 +17,7 @@ Template Post Type: page
               <?php the_post_thumbnail('thumbnail'); ?>
 
               <h3><?php the_title(); ?></h3>
+              <p>Category: <?php the_category(); ?></p>
 
               <p><?php the_excerpt(); ?></p>
 
