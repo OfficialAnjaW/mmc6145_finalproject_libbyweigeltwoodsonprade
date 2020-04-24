@@ -7,57 +7,29 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
-
+<div class="container">
   <div class="row">
-    <div class="col-md-12">
-      <?php dynamic_sidebar('trucks-hero-image'); ?>
-    </div>
-  </div>
+    <?php
+      if(have_posts()){
+        while(have_posts()){
+          the_post(); ?>
+            <div class="col-md-3">
+              <?php the_post_thumbnail('thumbnail'); ?>
 
-<!--here is the smart slider plugin - hero image, install widget area, will need to be styled on remote site -->
+              <h3><?php the_title(); ?></h3>
 
-  <div class="container">
+              <p><?php the_excerpt(); ?></p>
 
-    <!-- blog carousel 1, here is the WP Carousel Plugin -->
-    <h2 class="blogpadding">Front Loader Trucks</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <?php dynamic_sidebar('truck-carousel-area-1'); ?>
-      </div>
-    </div>
+              <a class="btn btn-info btn-sm" href="<?php the_permalink(); ?>" >Read the Full Article</a>
+              <p>&nbsp;</p>
+            </div>
+      <?php
+        }// end while
+      }// end if
+      ?>
 
-    <!-- paralax scroll 1 here, hand code -->
-    <div class="parallax"></div>
-    <div style="height:150px; background-color:#0c005a;" >
-      <h2 class="parallaxtext">Rear Loader Trucks</h2>
-    </div>
-
-
-    <!-- blog carousel 2, here is the WP Carousel Plugin -->
-    <h2 class="blogpadding">Rear Loader Trucks</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <?php dynamic_sidebar('truck-carousel-area-2'); ?>
-      </div>
-    </div>
-
-
-    <!-- paralax scroll 2 here, hand code -->
-    <div class="parallax2"></div>
-    <div style="height:150px; background-color:#0c005a;" >
-      <h2 class="parallaxtext">All Other Truck Types</h2>
-    </div>
-
-
-    <!-- blog carousel 3, here is the WP Carousel Plugin -->
-    <h2 class="blogpadding">All Other Truck Types</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <?php dynamic_sidebar('truck-carousel-area-3'); ?>
-      </div>
-    </div>
-
-  </div>
+  </div><!-- row-->
+</div> <!--container-->
 
 
 <?php get_footer(); ?>
