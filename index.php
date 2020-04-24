@@ -3,9 +3,7 @@
 Template Name: Default Layout
 Template Post Type: page
 */
-?>
-
-<?php get_header(); ?>
+get_header(); ?>
 
 <div class="container">
   <div class="row">
@@ -13,16 +11,19 @@ Template Post Type: page
       if(have_posts()){
         while(have_posts()){
           the_post(); ?>
-            <div class="col-md-3">
-              <?php the_post_thumbnail('thumbnail'); ?>
-
-              <h3><?php the_title(); ?></h3>
+            <div class="col-md-4">
+              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               <p>Category: <?php the_category(); ?></p>
+              <?php the_post_thumbnail('medium'); ?>
+              <?php the_excerpt(); ?>
+                <?php
+                  $archive_year = get_the_time('Y');
+                  $archive_month = get_the_time('m');
+                  $archive_day = get_the_time('d');
+                ?>
 
-              <p><?php the_excerpt(); ?></p>
-
-              <a class="btn btn-info btn-sm" href="<?php the_permalink(); ?>" >Read the Full Article</a>
-              <p>&nbsp;</p>
+              <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>
+              <p><?php echo "Article written by: " . get_the_author(); ?></p>
             </div>
       <?php
         }// end while

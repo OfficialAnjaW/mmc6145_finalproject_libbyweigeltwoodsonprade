@@ -458,3 +458,17 @@ h5.card-title {
     max-width: 500px;
   }
 }
+
+/* ======================
+
+  archive.php Template
+
+======================== */
+
+.twelve.columns.individual-post {
+    padding: 20px 40px;
+}
+
+.archive-title {
+  margin: 20px;
+}
