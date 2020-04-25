@@ -47,7 +47,7 @@ Template Post Type: page
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
           <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/form.png" alt="form icon" title="fill out our form"/></a>
-          <a class="btn btn-secondary btn-lg" href="#">Form</a>
+          <a class="btn btn-secondary btn-lg" href="#">FAQ</a>
         </div>
       </div>
     </article>
