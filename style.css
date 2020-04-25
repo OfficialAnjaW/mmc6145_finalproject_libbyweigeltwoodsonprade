@@ -148,14 +148,14 @@ footer label {
   background: #0c005a;
   color: white;
   border: solid 1px #0c005a;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #searchsubmit:hover {
   background: #ffffff;
   color: #0c005a;
-  border: solid 1px #0c005a;
-  border-radius: 5px;
+  border: solid 1px #ffffff;
+  border-radius: 3px;
 }
 
 #s {
@@ -503,26 +503,37 @@ label {
 
 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
   border: solid 1px #0c005a;
-  border-radius: 5px;
+  border-radius: 3px;
+  padding: 7px
 }
 
 textarea.wpcf7-form-control.wpcf7-textarea {
   border: solid 1px #0c005a;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 /* Submit Button */
 
 input.wpcf7-form-control.wpcf7-submit {
-  background: #bc25252;
+  background: #bc2525;
   color: white;
-  border: solid 1px #bc25252;
-  border-radius: 5px;
+  border: solid 1px #bc2525;
+  border-radius: 3px;
+  padding: 5px 50px;
 }
 
 input.wpcf7-form-control.wpcf7-submit:hover {
   background: #0c005a;
-  color: white;
   border: solid 1px #0c005a;
-  border-radius: 5px;
+  border-radius: 3px;
+}
+
+/* ======================
+
+  page-sell.php Template
+
+======================== */
+
+#responsive-menu-container {
+  background: rgba(12, 0, 90, 0.95);
 }
