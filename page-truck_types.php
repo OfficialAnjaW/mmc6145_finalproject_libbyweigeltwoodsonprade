@@ -67,9 +67,6 @@
         </div>
       </div>
         <?php endwhile; ?>
-
-
-
     </div>
     <!--/.Second slide-->
 
