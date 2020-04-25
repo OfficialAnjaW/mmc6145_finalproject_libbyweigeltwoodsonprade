@@ -36,14 +36,11 @@
       </div>
     </section>
 
-  <!-- ======================= Comments ==================-->
-    <section>
-      <div class="row">
-        <div class="col-md-12 comments">
-          <?php comments_template(); ?>
-        </div>
-      </div>
-    </section>
   </main>
+
+  <!-- ======================= Comments ==================-->
+  <section class="container comments">
+    <?php comments_template(); ?>
+  </section>
 
 <?php get_footer(); ?>
