@@ -8,6 +8,8 @@
      <div class="twelve columns">
 <<<<<<< HEAD
 
+=======
+>>>>>>> parent of 75cbe03... Add right sidebar to search.php
        <?php if(have_posts()){?>
           <h1><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h1>
          <?php while(have_posts()){
