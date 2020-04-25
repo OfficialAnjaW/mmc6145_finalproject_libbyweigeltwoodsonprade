@@ -8,76 +8,73 @@
 <?php get_header(); ?>
 <main class="container heading">
 
+  <!-- Carousel -->
+  <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
-  <!--Carousel Wrapper-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
 
-  <!--Indicators-->
-  <!--<ol class="carousel-indicators">
-    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-    <li data-target="#multi-item-example" data-slide-to="1"></li>
-    <li data-target="#multi-item-example" data-slide-to="2"></li>
+      <?php
+      // Item size (set here the number of posts for each group)
+      $i = 4;
 
-  </ol>
-  <!/.Indicators-->
+      // Set the arguments for the query
+      global $post;
+      $args = array(
+        'numberposts'   => 12,
+        'post_type'     => 'truck_types',
+      );
 
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
+      // Get the posts
+      $truck_types = get_posts($args);
 
-    <!--First slide-->
-    <div class="carousel-item active">
-      <?php $args = array ('post_type' => 'truck_types', 'posts_per_page' => 3);
+      // If there are posts
+      if($truck_types):
 
-      $loop = new WP_Query($args);
+        // Groups the posts in groups of $i
+        $chunks = array_chunk($truck_types, $i);
+        $html = "";
 
-      while($loop->have_posts()): $loop->the_post(); ?>
+        /*
+         * Item
+         * For each group (chunk) it generates an item
+         */
+        foreach($chunks as $chunk):
+          // Sets as 'active' the first item
+          ($chunk === reset($chunks)) ? $active = "active" : $active = "";
+          $html .= '<div class="carousel-item '.$active.'"><div class="container"><div class="row">';
 
-      <div class="col-md-4 col-sm-12" style="float:left">
-       <div class="card mb-2">
-            <div class="product-feature-img"><?php if (has_post_thumbnail()) {the_post_thumbnail('medium'); }?></div>
-          <div class="card-body">
-            <a href="<?php the_permalink(); ?>" class="heading"><h5><?php the_title(); ?></h5></a>
-            <p><?php the_field('make') ?> | <?php the_field('year') ?></p>
-            <a class="btn btn-primary" href="<?php the_permalink(); ?>">View More</a>
-          </div>
-        </div>
-      </div>
-        <?php endwhile; ?>
+          /*
+           * Posts inside the current Item
+           * For each item it generates the posts HTML
+           */
+          foreach($chunk as $post):
 
-    </div>
-    <!--/.First slide-->
+            $html .= '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">';
+            $html .= '<a class="cat-link" href="'.get_the_permalink().'">';
+            $html .= get_the_post_thumbnail($post->ID,'thumbnail');
+            $html .= '<h3>'.get_the_title($post->ID).'</h3>';
+            $html .= get_the_excerpt();
+            $html .= '</a>';
+            $html .= '</div>';
+          endforeach;
 
-    <!--Second slide-->
-    <div class="carousel-item">
+          $html .= '</div></div></div>';
 
-      <?php $args = array ('post_type' => 'truck_types', 'posts_per_page' => 3);
+        endforeach;
 
-      $loop = new WP_Query($args);
+        // Prints the HTML
+        echo $html;
 
-      while($loop->have_posts()): $loop->the_post(); ?>
+      endif;
+      ?>
 
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-            <div class="product-feature-img"><?php if (has_post_thumbnail()) {the_post_thumbnail('medium'); }?></div>
-          <div class="card-body">
-            <a href="<?php the_permalink(); ?>" class="heading"><h5><?php the_title(); ?></h5></a>
-            <p><?php the_field('make') ?> | <?php the_field('year') ?></p>
-            <a class="btn btn-primary" href="<?php the_permalink(); ?>">View More</a>
-          </div>
-        </div>
-      </div>
-        <?php endwhile; ?>
-    </div>
-    <!--/.Second slide-->
-
-
-  </div>
-  <!--/.Slides-->
+    </div> <!-- carousel inner -->
 
   <!--Controls-->
   <div class="controls-top">
-    <a class="btn btn-primary" href="#multi-item-example" data-slide="prev"><</a>
-    <a class="btn btn-primary" href="#multi-item-example" data-slide="next">></a>
+    <a class="btn btn-primary" href="#type-carousel" data-slide="prev"><</a>
+    <a class="btn btn-primary" href="#type-carousel" data-slide="next">></a>
   </div>
   <!--/.Controls-->
 
