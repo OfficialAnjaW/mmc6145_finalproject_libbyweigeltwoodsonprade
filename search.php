@@ -2,11 +2,11 @@
 /*Template Name: Search Page */
  get_header(); ?>
 
- <div class="container search">
-   <div class="row">
-     <div class="twelve columns">
-       <?php dynamic_sidebar('right-sidebar'); ?>
-       
+<!---search result section starts----------------------->
+ <main class="container search">
+   <div class="row justify-content-center posts">
+     <div class="col-lg-9 col-md-8 col-sm-12">
+
        <?php if(have_posts()){?>
           <h1><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h1>
          <?php while(have_posts()){
@@ -24,7 +24,13 @@
 
        ?>
      </div>
+  <!-- start the right sidebar ------------------------------>
+     <aside class="col-lg-3 col-md-4 col-sm-12 sidebar">
+       <?php dynamic_sidebar('right-sidebar'); ?>
+     </aside>
+
    </div>
- </div>
+ </main>
+
 
 <?php get_footer(); ?>
