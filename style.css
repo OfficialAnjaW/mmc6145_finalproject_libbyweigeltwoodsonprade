@@ -69,6 +69,9 @@ h5 {
   background-color: white;
   color: #bc2525;
 }
+.container-fluid {
+  padding: 0 0 0 0;
+}
 
 /* ======================
 
