@@ -50,7 +50,7 @@
     <!--Second slide-->
     <div class="carousel-item">
 
-      <?php $args = array ('post_type' => 'truck_types', 'posts_per_page' => 4);
+      <?php $args = array ('post_type' => 'truck_types', 'posts_per_page' => 3);
 
       $loop = new WP_Query($args);
 
