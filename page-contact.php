@@ -29,7 +29,8 @@ Template Post Type: page
 
   <!-- ======================= Contact Us Widget ==================-->
 
-    <section class="container-fluid contact">
+  <section class="container-fluid">
+    <article class="contact">
       <h2>Contact Us</h2>
       <div class="row d-flex align-items-baseline">
         <div class="col-lg-3 col-md-6 col-sm-12">
@@ -49,6 +50,7 @@ Template Post Type: page
           <a class="btn btn-secondary btn-lg" href="#">Form</a>
         </div>
       </div>
-    </section>
+    </article>
+  </section>
 
 <?php get_footer(); ?>
