@@ -480,6 +480,18 @@ h2.archive-title {
   margin: 20px 10px;
 }
 
+
+/* ======================
+
+  search.php Template
+
+======================== */
+
+.search {
+  min-height: 600px;
+  padding: 30px 30px;
+}
+
 /* ======================
 
   page-sell.php Template
