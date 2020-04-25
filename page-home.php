@@ -19,7 +19,7 @@ Template Post Type: page
   <main>
 
     <!-- Widget Area: Homepage Truck Types -->
-    <div class="container container-truck-types">
+    <div class="container-fluid container-truck-types">
       <div class="row">
         <div class="col-md-12">
           <?php dynamic_sidebar('homepage-truck-types'); ?>
@@ -35,7 +35,7 @@ Template Post Type: page
     </div>
 
     <!-- Widget Area: Homepage Services Section -->
-    <div class="container services-section">
+    <div class="container-fluid services-section">
 
       <div class="row">
         <!-- Widget Area: Homepage Services Title -->
