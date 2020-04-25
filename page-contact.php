@@ -25,9 +25,11 @@ Template Post Type: page
         </div>
       </div>
     </section>
+  </main>
 
   <!-- ======================= Contact Us Widget ==================-->
-    <section class="contact">
+
+    <section class="container-fluid contact">
       <h2>Contact Us</h2>
       <div class="row d-flex align-items-baseline">
         <div class="col-lg-3 col-md-6 col-sm-12">
@@ -48,7 +50,5 @@ Template Post Type: page
         </div>
       </div>
     </section>
-
-  </main>
 
 <?php get_footer(); ?>
