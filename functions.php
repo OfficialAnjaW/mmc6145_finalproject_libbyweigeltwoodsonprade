@@ -314,7 +314,7 @@
         'before_title'  => '<h3 class="carousel-blog2-widget-blog-home">',
         'after_title'   => '</h3>'
     ));
-    
+
     // Widget Area: Blog Widget A
     register_sidebar(array(
         'name'          => ('Carousel Area 3'),
@@ -511,5 +511,27 @@
   }
 
   add_action('widgets_init', 'blank_widgets_init');
+
+  /* ==== Custom Post Types ==== */
+function create_post_type(){
+  register_post_type('truck_types',
+    array(
+      'labels'          => array(
+        'name'          => ('Truck Types'),
+        'singular name' => ('Truck Types')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    ));
+}
+
+add_action('init', 'create_post_type');
 
 ?>
