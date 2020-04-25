@@ -6,6 +6,7 @@
  <div class="container search">
    <div class="row">
      <div class="twelve columns">
+<<<<<<< HEAD
 
        <?php if(have_posts()){?>
           <h1><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h1>
