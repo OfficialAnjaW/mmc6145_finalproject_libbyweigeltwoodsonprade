@@ -15,7 +15,7 @@ Template Post Type: page
   <main class="container">
 <!-- ======================= Locations Widgets ==================-->
     <section class="location">
-      <h2>Locations</h2>
+      <h2></h2>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-6">
           <?php dynamic_sidebar('contact-location-left'); ?>
@@ -31,7 +31,7 @@ Template Post Type: page
 
   <section class="container-fluid">
     <article class="contact">
-      <h2>Contact Us</h2>
+      <h2></h2>
       <div class="row d-flex align-items-baseline">
         <div class="col-lg-3 col-md-6 col-sm-12">
           <img src="<?php echo get_template_directory_uri(); ?>/images/phone.png" alt="phone icon" title="call us"/>
