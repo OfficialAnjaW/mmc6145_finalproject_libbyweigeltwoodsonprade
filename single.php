@@ -25,18 +25,21 @@
         <?php get_sidebar(); ?>
       </aside>
     </div>
+  </main>
 
 <!-- ======================= Recent Posts Slider ==================-->
-    <section class="recent-posts" id="recent-posts">
-      <h2>Related Posts</h2>
-      <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('recent-posts'); ?>
-        </div>
+<section class="container-fluid">
+  <article class="recent-posts" id="recent-posts">
+    <h2>Related Posts</h2>
+    <div class="row">
+      <div class="col-md-12">
+        <?php dynamic_sidebar('recent-posts'); ?>
       </div>
-    </section>
+    </div>
+  </article>
+</section>
 
-  </main>
+
 
   <!-- ======================= Comments ==================-->
   <section class="container comments">
