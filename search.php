@@ -19,7 +19,6 @@
          <h2>Nothing Was Found!</h2>
          <p>Our apologies, but nothing matched this search criteria.</p>
          <p>Please try agan with a different term.</p><?php
-         get_search_form();
        }
 
        ?>
