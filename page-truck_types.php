@@ -54,8 +54,8 @@
             $html .= '<a class="cat-link" href="'.get_the_permalink().'">';
             $html .= get_the_post_thumbnail($post->ID,'thumbnail');
             $html .= '<h3>'.get_the_title($post->ID).'</h3>';
-            $html .= get_the_excerpt();
             $html .= '</a>';
+            $html .= get_the_excerpt();
             $html .= '</div>';
           endforeach;
 

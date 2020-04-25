@@ -577,3 +577,12 @@ input#submit:hover {
   text-decoration: underline;
 }
 .comment-reply-title {display: none;}
+
+/* ========================== Truck_types carousel styles ==================== */
+.carousel {
+  margin-top: 20px;
+  text-align: center;
+}
+.carousel-item {
+  height: 300px;
+}
