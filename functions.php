@@ -514,11 +514,11 @@
 
   /* ==== Custom Post Types ==== */
 function create_post_type(){
-  register_post_type('truck_types',
+  register_post_type('garbage_trucks',
     array(
       'labels'          => array(
-        'name'          => ('Truck Types'),
-        'singular name' => ('Truck Types')
+        'name'          => ('Garbage Trucks'),
+        'singular name' => ('Garbage Truck')
       ),
       'public'                => true,
       'has_archive'           => true,
@@ -530,6 +530,22 @@ function create_post_type(){
       'menu_icon'             => 'dashicons-art',
       'supports'              => array('title','editor', 'thumbnail'),
     ));
+    register_post_type('dump_trucks',
+      array(
+        'labels'          => array(
+          'name'          => ('Dump Trucks'),
+          'singular name' => ('Dump Truck')
+        ),
+        'public'                => true,
+        'has_archive'           => true,
+        'show_in_menu'          => true,
+        'show_in_nav_menus'     => true,
+        'show_in_admin_bar'     => true,
+        'menu_position'         => 4,
+        'can_expost'            => true,
+        'menu_icon'             => 'dashicons-art',
+        'supports'              => array('title','editor', 'thumbnail'),
+      ));
 }
 
 add_action('init', 'create_post_type');

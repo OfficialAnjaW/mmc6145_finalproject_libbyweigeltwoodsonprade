@@ -24,17 +24,17 @@
       global $post;
       $args = array(
         'numberposts'   => 12,
-        'post_type'     => 'truck_types',
+        'post_type'     => 'garbage_trucks',
       );
 
       // Get the posts
-      $truck_types = get_posts($args);
+      $garbage_trucks = get_posts($args);
 
       // If there are posts
-      if($truck_types):
+      if($garbage_trucks):
 
         // Groups the posts in groups of $i
-        $chunks = array_chunk($truck_types, $i);
+        $chunks = array_chunk($garbage_trucks, $i);
         $html = "";
 
         /*
@@ -102,17 +102,17 @@
     global $post;
     $args = array(
       'numberposts'   => 12,
-      'post_type'     => 'truck_types',
+      'post_type'     => 'dump_trucks',
     );
 
     // Get the posts
-    $truck_types = get_posts($args);
+    $dump_trucks = get_posts($args);
 
     // If there are posts
-    if($truck_types):
+    if($dump_trucks):
 
       // Groups the posts in groups of $i
-      $chunks = array_chunk($truck_types, $i);
+      $chunks = array_chunk($dump_trucks, $i);
       $html = "";
 
       /*
