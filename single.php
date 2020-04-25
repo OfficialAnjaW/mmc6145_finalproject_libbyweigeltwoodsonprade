@@ -39,8 +39,8 @@
   <!-- ======================= Comments ==================-->
     <section>
       <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('comments'); ?>
+        <div class="col-md-12 comments">
+    <?php comments_template(); ?>
         </div>
       </div>
     </section>

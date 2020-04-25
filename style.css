@@ -537,3 +537,40 @@ input.wpcf7-form-control.wpcf7-submit:hover {
 #responsive-menu-container {
   background: rgba(12, 0, 90, 0.95);
 }
+
+/* ============== Comments Styles ============== */
+.comments {
+  margin-top: 20px;
+}
+.comment-author, .comment-divider, .comment-date {
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #0c005a;
+}
+.comment-divider {
+  padding: 0 5px;
+}
+.comment-text {
+  padding: 0 0 10px 0;
+}
+p.form-submit input {
+  padding: 10px;
+  background-color: #0c005a;
+  border-color: #0c005a;
+  color: white;
+}
+input#submit:hover {
+  background-color: #bc2525;
+}
+.comment-form-comment label {
+  display: none;
+}
+.comment-form-comment textarea {
+  background-color: #eaeaea;
+}
+.comments a{
+  color: #0c005a;
+  text-decoration: underline;
+}
+.comment-reply-title {display: none;}
