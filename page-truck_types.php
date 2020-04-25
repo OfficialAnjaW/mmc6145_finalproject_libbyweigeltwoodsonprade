@@ -56,7 +56,7 @@
             $html .= '<h3>'.get_the_title($post->ID).'</h3>';
             $html .= '</a>';
             $html .= get_the_excerpt();
-            $html .= '<a class="btn btn-primary btn-lg" href="#">Learn More';
+            $html .= '<a class="btn btn-primary" href="#">Learn More';
             $html .= '</a>';
             $html .= '</div>';
           endforeach;
