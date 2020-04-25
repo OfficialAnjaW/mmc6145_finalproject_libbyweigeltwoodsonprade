@@ -585,8 +585,11 @@ input#submit:hover {
   text-align: center;
 }
 .carousel-item {
-  height: 400px;
+  height: 450px;
 }
 .carousel-tile {
   background-color: #eaeaea;
+  margin: 10px;
+  max-width: 250px;
+  padding: 20px 0;
 }

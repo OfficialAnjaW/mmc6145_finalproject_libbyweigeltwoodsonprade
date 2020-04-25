@@ -55,7 +55,7 @@
             $html .= get_the_post_thumbnail($post->ID,'thumbnail');
             $html .= '<h3>'.get_the_title($post->ID).'</h3>';
             $html .= '</a>';
-            $html .= get_the_excerpt();
+            $html .= '<p>'.get_the_excerpt();.'</p>';
             $html .= '<a class="btn btn-primary" href="#">Learn More';
             $html .= '</a>';
             $html .= '</div>';
