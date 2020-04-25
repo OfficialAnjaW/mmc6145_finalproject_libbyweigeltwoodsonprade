@@ -587,3 +587,6 @@ input#submit:hover {
 .carousel-item {
   height: 300px;
 }
+.carousel-tile {
+  background-color: #eaeaea;
+}

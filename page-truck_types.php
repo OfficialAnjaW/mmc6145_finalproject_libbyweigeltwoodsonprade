@@ -50,12 +50,14 @@
            */
           foreach($chunk as $post):
 
-            $html .= '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">';
+            $html .= '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 carousel-tile">';
             $html .= '<a class="cat-link" href="'.get_the_permalink().'">';
             $html .= get_the_post_thumbnail($post->ID,'thumbnail');
             $html .= '<h3>'.get_the_title($post->ID).'</h3>';
             $html .= '</a>';
             $html .= get_the_excerpt();
+            $html .= '<a class="btn btn-primary btn-lg" href="#">Learn More';
+            $html .= '</a>';
             $html .= '</div>';
           endforeach;
 
