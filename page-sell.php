@@ -20,10 +20,12 @@ Template Post Type: page
                 <?php the_post_thumbnail('large'); ?>
               </div>
 
-              <!-- Page Title -->
-              <h2 class="entry-title"><?php the_title(); ?></h2>
-              <!-- Page Content -->
-              <?php the_content(); ?>
+              <div class="truck-sale">
+                <!-- Page Title -->
+                <h2 class="entry-title"><?php the_title(); ?></h2>
+                <!-- Page Content -->
+                <?php the_content(); ?>
+              </div>
 
         <?php  } //ends while loop
           } //ends if statement

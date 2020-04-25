@@ -151,6 +151,13 @@ footer label {
   border-radius: 5px;
 }
 
+#searchsubmit:hover {
+  background: #ffffff;
+  color: #0c005a;
+  border: solid 1px #0c005a;
+  border-radius: 5px;
+}
+
 #s {
   border: solid 2px #0c005a;
   border-radius: 5px;
@@ -471,4 +478,51 @@ h5.card-title {
 
 .archive-title {
   margin: 20px;
+}
+
+/* ======================
+
+  page-sell.php Template
+
+======================== */
+
+.truck-sale {
+  padding: 5% 0;
+}
+
+form.wpcf7-form {
+  background: #eaeaea;
+  padding: 5%;
+  margin-bottom: 4%;
+}
+
+label {
+  color: #0c005a;
+  font-weight: bold;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+  border: solid 1px #0c005a;
+  border-radius: 5px;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea {
+  border: solid 1px #0c005a;
+  border-radius: 5px;
+}
+
+/* Submit Button */
+
+input.wpcf7-form-control.wpcf7-submit {
+  background: #bc25252;
+  color: white;
+  border: solid 1px #bc25252;
+  border-radius: 5px;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+  background: #0c005a;
+  color: white;
+  border: solid 1px #0c005a;
+  border-radius: 5px;
 }
