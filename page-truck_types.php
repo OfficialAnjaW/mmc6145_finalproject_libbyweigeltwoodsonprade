@@ -89,7 +89,7 @@
 <!-- Carousel -->
 
 <h2>Dump Trucks</h2>
-<div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
+<div id="type-carousel-2" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
