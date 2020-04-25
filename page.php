@@ -15,7 +15,6 @@
 
               <!-- Page Title -->
               <h2 class="entry-title"><?php the_title(); ?></h2>
-                <p>test</p>
               <!-- Page Content -->
               <?php the_content(); ?>
 
