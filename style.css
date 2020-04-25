@@ -476,8 +476,8 @@ h5.card-title {
     padding: 20px 40px;
 }
 
-.archive-title {
-  margin: 20px;
+h2.archive-title {
+  margin: 20px 10px;
 }
 
 /* ======================

@@ -11,7 +11,7 @@
                   single_cat_title();
                 }elseif(is_tag()){
                   single_tag_title();
-                }elseif(isday()){
+                }elseif(is_day()){
                   echo "Daily Archives: " . get_the_date();
                 }elseif(is_month()){
                   echo "Monthly Archives: " . get_the_date('F Y');
