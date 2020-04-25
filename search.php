@@ -2,9 +2,14 @@
 /*Template Name: Search Page */
  get_header(); ?>
 
+<!---search result section starts----------------------->
  <div class="container search">
    <div class="row">
      <div class="twelve columns">
+<<<<<<< HEAD
+
+=======
+>>>>>>> parent of 75cbe03... Add right sidebar to search.php
        <?php if(have_posts()){?>
           <h1><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h1>
          <?php while(have_posts()){
@@ -21,7 +26,8 @@
 
        ?>
      </div>
+  <!-- start the right sidebar ------------------------------>
+     
    </div>
  </div>
-
 <?php get_footer(); ?>
