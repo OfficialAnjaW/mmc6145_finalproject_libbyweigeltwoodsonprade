@@ -3,7 +3,7 @@
  get_header(); ?>
 
 <!---search result section starts----------------------->
- <main class="container search">
+ <div class="container search">
    <div class="row justify-content-center posts">
      <div class="col-lg-9 col-md-8 col-sm-12">
 
@@ -30,7 +30,7 @@
      </aside>
 
    </div>
- </main>
+ </div>
 
 
 <?php get_footer(); ?>
