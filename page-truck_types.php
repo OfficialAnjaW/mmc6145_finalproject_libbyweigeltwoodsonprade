@@ -8,6 +8,8 @@
 <?php get_header(); ?>
 <main class="container heading">
 
+<h2>Garbage Trucks</h2>
+
   <!-- Carousel -->
   <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
@@ -85,6 +87,8 @@
 
 
 <!-- Carousel -->
+
+<h2>Dump Trucks</h2>
 <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
   <!-- Wrapper for slides -->
@@ -151,8 +155,8 @@
 
 <!--Controls-->
 <div class="controls-top">
-  <a class="btn btn-primary" href="#type-carousel" data-slide="prev"><</a>
-  <a class="btn btn-primary" href="#type-carousel" data-slide="next">></a>
+  <a class="btn btn-primary" href="#type-carousel-2" data-slide="prev"><</a>
+  <a class="btn btn-primary" href="#type-carousel-2" data-slide="next">></a>
 </div>
 <!--/.Controls-->
 
