@@ -40,7 +40,7 @@
     <section>
       <div class="row">
         <div class="col-md-12 comments">
-    <?php comments_template(); ?>
+          <?php comments_template(); ?>
         </div>
       </div>
     </section>
