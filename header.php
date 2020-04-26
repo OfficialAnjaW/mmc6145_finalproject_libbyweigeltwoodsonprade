@@ -24,7 +24,7 @@
         <div class="row">
 
           <!-- Header Image/Linked Logo -->
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <?php  if(get_header_image() == ''){?>
               <h1><a href="<?php get_home_url();?>"><?php bloginfo('name'); ?></a></h1><?php
             }else{?>
@@ -33,7 +33,7 @@
           </div>
 
           <!-- Widget Area: Header Contact -->
-          <div class="col-sm-3 d-flex align-items-center">
+          <div class="col-sm-4 d-flex align-items-center">
             <?php dynamic_sidebar('header-contact'); ?>
           </div>
 
