@@ -77,16 +77,16 @@
 
 =====================================*/
 
-    // Widget Area: Header Contact
-    register_sidebar(array(
-        'name'          => ('Header Contact'),
-        'id'            => 'header-contact',
-        'description'   => 'Contact Info in Header',
-        'before_widget' => '<div class="widget-header-contact">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h5 class="header-contact-widget-title">',
-        'after_title'   => '</h5>'
-    ));
+    // // Widget Area: Header Contact
+    // register_sidebar(array(
+    //     'name'          => ('Header Contact'),
+    //     'id'            => 'header-contact',
+    //     'description'   => 'Contact Info in Header',
+    //     'before_widget' => '<div class="widget-header-contact">',
+    //     'after_widget'  => '</div>',
+    //     'before_title'  => '<h5 class="header-contact-widget-title">',
+    //     'after_title'   => '</h5>'
+    // ));
 
     // Widget Area: Header Social
     register_sidebar(array(

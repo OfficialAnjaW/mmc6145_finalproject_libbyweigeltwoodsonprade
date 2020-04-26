@@ -24,7 +24,7 @@
         <div class="row">
 
           <!-- Header Image/Linked Logo -->
-          <div class="col-sm-5">
+          <div class="col-lg-7">
             <?php  if(get_header_image() == ''){?>
               <h1><a href="<?php get_home_url();?>"><?php bloginfo('name'); ?></a></h1><?php
             }else{?>
@@ -32,16 +32,10 @@
             <?php } ?>
           </div>
 
-          <!-- Widget Area: Header Contact -->
-          <div class="col-sm-4 d-flex align-items-center">
-            <?php dynamic_sidebar('header-contact'); ?>
+          <!-- Widget Area: Header Social -->
+          <div class="col-lg-5 d-flex align-items-center">
             <?php dynamic_sidebar('header-social'); ?>
           </div>
-
-          <!-- Widget Area: Header Social -->
-          <!-- <div class="col-sm-3 d-flex align-items-center">
-
-          </div> -->
 
         </div>
       </div>
