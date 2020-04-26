@@ -1,9 +1,24 @@
 <?php get_header(); ?>
 
 <!-- ======================= Hero Image Widget ==================-->
-  <?php dynamic_sidebar('post-hero-image'); ?>
 
-  <main class="container">
+<main class="container-fluid">
+  <section class="row">
+    <?php
+      if(have_posts()) {
+        while(have_posts()){
+          the_post(); ?>
+
+        <div class="col-12 post-hero">
+          <?php the_post_thumbnail(); ?>
+        </div>
+      <?php  } //this ends while loop
+      }// this ends if statement
+    ?>
+  </section>
+</main>
+
+  <section class="container">
 
 <!-- ======================= Blog Content ==================-->
     <div class="row justify-content-center posts">
@@ -25,7 +40,7 @@
         <?php get_sidebar(); ?>
       </aside>
     </div>
-  </main>
+  </section>
 
 <!-- ======================= Recent Posts Slider ==================-->
 <section class="container-fluid">
