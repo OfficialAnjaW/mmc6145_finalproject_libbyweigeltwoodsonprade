@@ -16,7 +16,7 @@
                 <?php the_post_thumbnail(); ?>
               </div>
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-12">
+              <div class="col-lg-6 col-md-6 col-12 fields">
                 <h5>Body Specifications:</h5>
                 <p>Body Type: <?php the_field('body_type') ?></p>
                 <p>Body Make: <?php the_field('body_make') ?></p>
