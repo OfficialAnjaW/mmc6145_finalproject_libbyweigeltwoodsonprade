@@ -630,19 +630,7 @@ input#submit:hover {
 
 @media (min-width: 576px) {
   .single-trucks-img img {
-    max-width: 500px;
-    object-fit: contain;
-  }
-}
-@media (min-width: 768px) {
-  .single-trucks-img img {
-    max-width: 700px;
-    object-fit: contain;
-  }
-}
-@media (min-width: 992px) {
-  .single-trucks-img img {
-    max-width: 900px;
+    max-width: 450px;
     object-fit: contain;
   }
 }
