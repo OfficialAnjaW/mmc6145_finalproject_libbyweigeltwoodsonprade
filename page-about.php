@@ -1,20 +1,36 @@
 <?php
-
 /*
 Template Name: About Layout
 Template Post Type: page
 */
-
 ?>
 
 <?php get_header(); ?>
-
-<!-- ======================= Hero Image Widget ==================-->
-  <?php dynamic_sidebar('about-hero-image'); ?>
-
   <main class="container">
-<!-- ======================= Double Widget Areas ==================-->
+
+
+<!-- ======================= Featured Image Function ==================-->
+    <?php the_post_thumbnail(); ?>
+
+  <!--======================= start about us content post=====================------->
     <section>
+      <div class="row justify-content-center posts">
+        <div class="col-lg-9 col-md-8 col-sm-12">
+          <?php
+            if(have_posts()) {
+              while(have_posts()){
+                the_post(); ?>
+                <h2 class="entry-title"><?php the_title(); ?></h2>
+
+                <?php the_content(); ?>
+            <?php  } //this ends while loop
+            }// this ends if statement
+          ?>
+        </div>
+
+    </section>
+<!-- ======================= Temp Commented out/Double Widget Areas ==================-->
+  <!--  <section>
       <div class="row">
         <div class="col-12">
           <?php dynamic_sidebar('about-main'); ?>
@@ -31,7 +47,7 @@ Template Post Type: page
           <?php dynamic_sidebar('about-right'); ?>
         </div>
       </div>
-    </section>
+    </section>-->
 
 
   </main>
