@@ -6,6 +6,9 @@
  ?>
 
 <?php get_header(); ?>
+
+<?php dynamic_sidebar('trucks-hero-image'); ?>
+
 <main class="container heading">
 
 <h2>Garbage Trucks</h2>
