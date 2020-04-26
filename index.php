@@ -8,7 +8,7 @@ get_header(); ?>
 <?php dynamic_sidebar('blog-hero-image'); ?>
 
 <div class="container carousel">
-  <div class="row">
+  <div class="row justify-content-center">
     <?php
       if(have_posts()){
         while(have_posts()){
