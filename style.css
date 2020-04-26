@@ -382,10 +382,7 @@ h5.card-title {
   padding-bottom: 2%;
 }
 
-.homepage-locations-one-widget-title {
-  padding: 3% 0;
-}
-
+.homepage-locations-one-widget-title,
 .homepage-locations-two-widget-title {
   padding-top: 3%;
 }
