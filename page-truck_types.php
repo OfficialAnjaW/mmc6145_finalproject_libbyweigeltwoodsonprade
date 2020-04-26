@@ -20,7 +20,7 @@
     </article>
   </section>
 </main>
-<section class="container">
+<section class="container-fluid">
 
 
 <!-- paralax scroll 1 here, dump truck hand code -->
@@ -28,9 +28,11 @@
 <!--  <div style="height:150px; background-color:#0c005a;" >
     <h2 class="parallaxtext">Garbage Trucks</h2>-->
   </div>
+</section>
 
 
 <!-- ====================== Start Garbage Trucks Carousel ====================== -->
+<section class="container">
 <h2>Garbage Trucks</h2>
   <!-- Carousel -->
   <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
@@ -107,7 +109,8 @@
 </div>
 <!--/.Carousel Wrapper-->
 <!-- ====================== End Garbage Trucks Carousel ====================== -->
-
+</section>
+<section class="container-fluid">
 
 <!-- paralax scroll 2 here, Grapple trucks hand code -------------->
 <div class="parallax4"></div>
@@ -115,7 +118,9 @@
   <h2 class="parallaxtext">Grapple Trucks</h2>-->
 </div>
 
+</section>
 
+<section class="container">
 
 <!-- ====================== Start Dump Trucks Carousel ====================== -->
 <h2>Dump Trucks</h2>
@@ -194,13 +199,16 @@
 <!--/.Carousel Wrapper-->
 <!-- ====================== End Dump Trucks Carousel ====================== -->
 
-
+</section>
+<section class="container-fluid">
 <!-- paralax scroll 3 here, dump truck hand code -->
 <div class="parallax3"></div>
 <!--<div style="height:150px; background-color:#0c005a;" >
   <h2 class="parallaxtext">Dump Trucks</h2>-->
 </div>
+</section>
 
+<section class="container">
 
 <!-- ====================== Start Grapple Trucks Carousel ====================== -->
 
@@ -278,16 +286,17 @@
   <!--/.Controls-->
 
 </div>
+</section>
 <!-- ====================== End Grapple Trucks Carousel ====================== -->
-
+<section class="container-fluid">
 <!-- paralax scroll 4 here, concrete/other trucks hand code --------------------------->
 <div class="parallax2"></div>
 <!--<div style="height:150px; background-color:#0c005a;" >
   <h2 class="parallaxtext">All Other Truck Types</h2>-->
 </div>
-
+</section>
 <!-- ====================== Start Other Trucks Carousel ====================== -->
-
+<section class="container">
 <h2>Other Trucks</h2>
   <!-- Carousel -->
   <div id="type-carousel-4" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
