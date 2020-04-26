@@ -648,6 +648,9 @@ input#submit:hover {
     object-fit: contain;
   }
 }
+.fields p {
+  margin: 0;
+}
 .fields p:nth-child(even) {
   background-color: #eaeaea;
 }
