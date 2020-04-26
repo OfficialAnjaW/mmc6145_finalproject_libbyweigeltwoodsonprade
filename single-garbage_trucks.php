@@ -12,8 +12,8 @@
               while(have_posts()){
                 the_post(); ?>
 
-              <div class="product-feature-img">
-                <?php the_post_thumbnail(); ?>
+              <div>
+                <?php the_post_thumbnail('medium_large'); ?>
               </div>
 
             <?php  } //this ends while loop
