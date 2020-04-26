@@ -167,7 +167,7 @@
 
 <h2>Grapple Trucks</h2>
   <!-- Carousel -->
-  <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
+  <div id="type-carousel-3" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -233,8 +233,8 @@
 
   <!--Controls-->
   <div class="controls-top">
-    <a class="btn btn-primary" href="#type-carousel" data-slide="prev"><</a>
-    <a class="btn btn-primary" href="#type-carousel" data-slide="next">></a>
+    <a class="btn btn-primary" href="#type-carousel-3" data-slide="prev"><</a>
+    <a class="btn btn-primary" href="#type-carousel-3" data-slide="next">></a>
   </div>
   <!--/.Controls-->
 
@@ -243,7 +243,7 @@
 
 <h2>Other Trucks</h2>
   <!-- Carousel -->
-  <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
+  <div id="type-carousel-4" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -309,8 +309,8 @@
 
   <!--Controls-->
   <div class="controls-top">
-    <a class="btn btn-primary" href="#type-carousel" data-slide="prev"><</a>
-    <a class="btn btn-primary" href="#type-carousel" data-slide="next">></a>
+    <a class="btn btn-primary" href="#type-carousel-4" data-slide="prev"><</a>
+    <a class="btn btn-primary" href="#type-carousel-4" data-slide="next">></a>
   </div>
   <!--/.Controls-->
 
