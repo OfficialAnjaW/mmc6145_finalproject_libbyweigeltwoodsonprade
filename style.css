@@ -654,7 +654,7 @@ input#submit:hover {
 .fields p:nth-child(even) {
   background-color: #eaeaea;
 }
-.post-hero {
+.post-hero img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
