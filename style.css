@@ -113,7 +113,7 @@ nav.main-navigation {
 
 /* Social Widget Mobile Responsive */
 
-@media (max-width:600px) {
+@media (max-width:992px) {
   h5.header-social-widget-title {
     display: none;
   }
