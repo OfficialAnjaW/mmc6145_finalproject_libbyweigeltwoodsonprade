@@ -85,15 +85,6 @@ header img {
   object-fit: contain;
 }
 
-/* .widget-header-contact a {
-  color: #bc2525;
-  text-decoration: none;
-} */
-
-/* .widget-header-contact a:hover {
-  color: #0c005a;
-} */
-
 /* Navigation Menu */
 
 .main-menu-background {
@@ -118,6 +109,18 @@ header img {
 
 nav.main-navigation {
   color: #ffffff;
+}
+
+/* Social Widget Mobile Responsive */
+
+@media (max-width:600px) {
+  h5.header-social-widget-title {
+    display: none;
+  }
+
+  .widget-header-social {
+    padding: 2% 0;
+  }
 }
 
 /* ======================
