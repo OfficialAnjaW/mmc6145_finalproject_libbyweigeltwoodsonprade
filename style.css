@@ -282,6 +282,10 @@ h5.card-title {
   margin: 15px;
   max-width:1200px;
 }
+
+h3.about-right-widget-title {
+    padding-top: 20px;
+}
 /* ======================
 
   single.php Template
