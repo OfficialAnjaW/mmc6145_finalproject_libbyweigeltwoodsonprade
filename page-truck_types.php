@@ -9,6 +9,7 @@
 
 <?php dynamic_sidebar('trucks-hero-image'); ?>
 
+<!-- ====================== Search Area ====================== -->
 <main class="container-fluid red">
   <section class="row">
     <article class="col-md-6 col-sm-12 col-xs-12">
@@ -21,6 +22,7 @@
 </main>
 <section class="container">
 
+<!-- ====================== Start Garbage Trucks Carousel ====================== -->
 <h2>Garbage Trucks</h2>
   <!-- Carousel -->
   <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
@@ -96,10 +98,11 @@
 
 </div>
 <!--/.Carousel Wrapper-->
+<!-- ====================== End Garbage Trucks Carousel ====================== -->
 
 
-<!-- Carousel -->
 
+<!-- ====================== Start Dump Trucks Carousel ====================== -->
 <h2>Dump Trucks</h2>
 <div id="type-carousel-2" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
@@ -174,6 +177,10 @@
 
 </div>
 <!--/.Carousel Wrapper-->
+<!-- ====================== End Dump Trucks Carousel ====================== -->
+
+
+<!-- ====================== Start Grapple Trucks Carousel ====================== -->
 
 <h2>Grapple Trucks</h2>
   <!-- Carousel -->
@@ -249,7 +256,10 @@
   <!--/.Controls-->
 
 </div>
-<!--/.Carousel Wrapper-->
+<!-- ====================== End Grapple Trucks Carousel ====================== -->
+
+
+<!-- ====================== Start Other Trucks Carousel ====================== -->
 
 <h2>Other Trucks</h2>
   <!-- Carousel -->
@@ -325,7 +335,7 @@
   <!--/.Controls-->
 
 </div>
-<!--/.Carousel Wrapper-->
+<!-- ====================== End Other Trucks Carousel ====================== -->
 
 </section>
 
