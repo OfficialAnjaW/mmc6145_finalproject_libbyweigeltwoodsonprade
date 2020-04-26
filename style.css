@@ -178,7 +178,7 @@ footer label {
 
 /* ======================
 
-   index.php Template
+   index.php and truck types Template
 
 ======================== */
 
@@ -186,20 +186,20 @@ footer label {
   /* The image used */
   background-image: url("images/smallbluetruck.png");
   /* Set a specific height */
-  height: 250px;
+  height: 300px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 30px;
+
 }
 
 .parallax2 {
   /* The image used */
   background-image: url("images/concretetruck1.png");
   /* Set a specific height */
-  height: 250px;
+  height: 300px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -212,7 +212,7 @@ footer label {
   /* The image used */
   background-image: url("images/emptydumper1.png");
   /* Set a specific height */
-  height: 250px;
+  height: 300px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -225,7 +225,7 @@ footer label {
   /* The image used */
   background-image: url("images/greendumper1.png");
   /* Set a specific height */
-  height: 250px;
+  height: 300px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -530,7 +530,6 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
   padding: 7px
 }
 
-input.wpcf7-form-control.wpcf7-text,
 textarea.wpcf7-form-control.wpcf7-textarea {
   border: solid 1px #0c005a;
   border-radius: 3px;
