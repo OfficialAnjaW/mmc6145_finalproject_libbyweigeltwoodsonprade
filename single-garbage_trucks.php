@@ -17,10 +17,10 @@
               </div>
               <div>
                 <h5>Body Specifications:</h5>
-                <p>Body Type: <?php the_field('body-type') ?></p>
-                <p>Body Make: <?php the_field('body-make') ?></p>
-                <p>Body Model: <?php the_field('body-model') ?></p>
-                <p>Body Capacity: <?php the_field('body-capacity') ?></p>
+                <p>Body Type: <?php the_field('body_type') ?></p>
+                <p>Body Make: <?php the_field('body_make') ?></p>
+                <p>Body Model: <?php the_field('body_model') ?></p>
+                <p>Body Capacity: <?php the_field('body_capacity') ?></p>
               </div>
 
               <div>
@@ -30,12 +30,12 @@
                 <p>Model: <?php the_field('model') ?></p>
                 <p>Miles: <?php the_field('miles') ?></p>
                 <p>Hours: <?php the_field('hours') ?></p>
-                <p>Engine Make: <?php the_field('engine-make') ?></p>
-                <p>Engine Model: <?php the_field('engine-model') ?></p>
-                <p>Engine Brake: <?php the_field('engine-brake') ?></p>
-                <p>Transmission Type: <?php the_field('tran-type') ?></p>
-                <p>Transmission Make: <?php the_field('tran-make') ?></p>
-                <p>Transmission Model: <?php the_field('tran-model') ?></p>
+                <p>Engine Make: <?php the_field('engine_make') ?></p>
+                <p>Engine Model: <?php the_field('engine_model') ?></p>
+                <p>Engine Brake: <?php the_field('engine_brake') ?></p>
+                <p>Transmission Type: <?php the_field('trans_type') ?></p>
+                <p>Transmission Make: <?php the_field('trans_make') ?></p>
+                <p>Transmission Model: <?php the_field('trans_model') ?></p>
                 <p>Speeds: <?php the_field('speeds') ?></p>
                 <p>Paint: <?php the_field('paint') ?></p>
                 <p>Stock #: <?php the_field('stock') ?></p>
