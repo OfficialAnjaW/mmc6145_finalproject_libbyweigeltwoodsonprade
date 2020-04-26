@@ -5,7 +5,7 @@
     echo get_avatar($comment, 32);
     echo '</div>';
 
-    echo '<div class="comment-author">' . get_comment_author_link() . '</div>';
+    echo '<div class="comment-author"> Comment by: ' . get_comment_author_link() . '</div>';
 
     echo '<div class="comment-divider">//' . '</div>';
 

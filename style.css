@@ -38,6 +38,7 @@ h3,
 h4,
 h5 {
   font-family: 'Oswald', sans-serif;
+  margin-top: 15px;
 }
 
 p {
@@ -425,6 +426,9 @@ h5.card-title {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+.widget-contact-location-right {
+  text-align: center;
+}
 
 .contact-location-right-widget-title {
   color: #0c005a;
@@ -601,7 +605,7 @@ input#submit:hover {
   text-align: center;
 }
 .carousel-inner {
-  max-height: 320px;
+  max-height: 370px;
   overflow: hidden;
   margin: 10px;
 }
@@ -612,7 +616,10 @@ input#submit:hover {
   background-color: #eaeaea;
   margin: 10px;
   max-width: 250px;
-  padding: 20px 0;
+  padding: 20px 5px;
+}
+.carousel-tile h5 a {
+  color: #0c005a;
 }
 .red {
   background-color: #bc2525;
@@ -627,6 +634,7 @@ input#submit:hover {
   max-width: 320px;
   object-fit: contain;
   height: 100%;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -637,7 +645,18 @@ input#submit:hover {
 }
 @media screen and (min-width: 992px) {
   .single-trucks-img img {
-    max-width: 600px;
+    max-width: 550px;
     object-fit: contain;
   }
+}
+.fields p {
+  margin: 0;
+}
+.fields p:nth-child(even) {
+  background-color: #eaeaea;
+}
+.post-hero img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
