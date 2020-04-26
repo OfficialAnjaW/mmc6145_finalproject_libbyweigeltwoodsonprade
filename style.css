@@ -638,7 +638,7 @@ input#submit:hover {
 }
 @media screen and (min-width: 992px) {
   .single-trucks-img img {
-    max-width: 600px;
+    max-width: 550px;
     object-fit: contain;
   }
 }
