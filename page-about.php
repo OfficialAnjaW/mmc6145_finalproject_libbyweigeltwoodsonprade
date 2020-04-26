@@ -31,13 +31,13 @@ Template Post Type: page
 
     </section>
 <!-- ======================= Temp Commented out/Double Widget Areas ==================-->
-  <!--  <section>
+   <!-- <section>
       <div class="row">
         <div class="col-12">
           <?php dynamic_sidebar('about-main'); ?>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="about">
       <div class="row d-flex justify-content-between">
@@ -48,7 +48,7 @@ Template Post Type: page
           <?php dynamic_sidebar('about-right'); ?>
         </div>
       </div>
-    </section>-->
+    </section>
 
 
   </main>
