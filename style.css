@@ -341,7 +341,11 @@ h5.card-title {
 }
 
 .container-truck-types {
-  padding: 5% 0;
+  padding: 7% 0;
+}
+
+.widget-homepage-truck-types {
+  padding: 0 7%;
 }
 
 /* Services */
@@ -355,14 +359,14 @@ h5.card-title {
   padding: 1% 5%;
 }
 
-.container.services-section {
-  margin: 5% auto;
-  text-align: center;
-}
-
 .widget-homepage-services-title {
   padding-bottom: 2%;
   text-align: left;
+}
+
+.container-fluid.services-section {
+  margin: 7% auto;
+  text-align: center;
 }
 
 /* Locations */
