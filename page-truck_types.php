@@ -57,9 +57,9 @@
             $html .= get_the_post_thumbnail($post->ID,'thumbnail');
             $html .= '<h3>'.get_the_title($post->ID).'</h3>';
             $html .= '</a>';
-            $html .= '<p>'.the_field('make').'</p>';
-            $html .= '<p>'.the_field('year').'</p>';
-            $html .= '<p>'.the_field('miles').'</p>';
+            $html .= the_field('make');
+            $html .= the_field('miles');
+            $html .= the_field('year');
             $html .= '<a class="btn btn-primary" href="'.get_the_permalink().'">Learn More';
             $html .= '</a>';
             $html .= '</div>';
