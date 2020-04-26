@@ -286,6 +286,10 @@ h5.card-title {
 h3.about-right-widget-title {
     padding-top: 20px;
 }
+
+h3.about-left-widget-title {
+    padding-top: 20px;
+}
 /* ======================
 
   single.php Template
