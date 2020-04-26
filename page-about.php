@@ -10,8 +10,9 @@ Template Post Type: page
 
 
 <!-- ======================= Featured Image Function ==================-->
+<section class="aboutus-img">
   <?php the_post_thumbnail(); ?>
-
+</section>
   <!--======================= start about us content post=====================------->
     <section>
       <div class="row justify-content-center posts">

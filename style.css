@@ -277,6 +277,10 @@ h5.card-title {
   margin-top: 2%;
 }
 
+.aboutus-img{
+  margin: 15px;
+  max-width:1200px;
+}
 /* ======================
 
   single.php Template
