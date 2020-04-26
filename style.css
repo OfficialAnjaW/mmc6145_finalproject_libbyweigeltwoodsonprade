@@ -426,6 +426,9 @@ h5.card-title {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+.widget-contact-location-right {
+  text-align: center;
+}
 
 .contact-location-right-widget-title {
   color: #0c005a;
