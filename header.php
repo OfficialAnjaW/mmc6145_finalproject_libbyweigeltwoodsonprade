@@ -35,12 +35,13 @@
           <!-- Widget Area: Header Contact -->
           <div class="col-sm-4 d-flex align-items-center">
             <?php dynamic_sidebar('header-contact'); ?>
+            <?php dynamic_sidebar('header-social'); ?>
           </div>
 
           <!-- Widget Area: Header Social -->
-          <div class="col-sm-3 d-flex align-items-center">
-            <?php dynamic_sidebar('header-social'); ?>
-          </div>
+          <!-- <div class="col-sm-3 d-flex align-items-center">
+
+          </div> -->
 
         </div>
       </div>
