@@ -6,7 +6,7 @@
  ?>
 
 <?php get_header(); ?>
-<main class="container-fluid red">
+<main class="container red">
   <?php dynamic_sidebar('trucks-hero-image'); ?>
   <section class="row">
     <article class="col-md-6 col-sm-12 col-xs-12">
