@@ -13,7 +13,7 @@ get_header(); ?>
           the_post(); ?>
             <div class="col-md-4 carousel-tile">
               <?php the_post_thumbnail('thumbnail'); ?>
-              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+              <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
               <?php the_excerpt(); ?>
                 <?php
                   $archive_year = get_the_time('Y');
