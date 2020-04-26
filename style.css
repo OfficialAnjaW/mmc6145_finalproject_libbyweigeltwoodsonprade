@@ -602,3 +602,7 @@ input#submit:hover {
   max-width: 250px;
   padding: 20px 0;
 }
+.red {
+  background-color: #bc2525;
+  color: white;
+}

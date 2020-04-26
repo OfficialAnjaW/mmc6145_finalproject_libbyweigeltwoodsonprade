@@ -8,8 +8,17 @@
 <?php get_header(); ?>
 
 <?php dynamic_sidebar('trucks-hero-image'); ?>
-
-<main class="container heading">
+<main class="container-fluid red">
+  <section class="row">
+    <article class="col-md-6 col-sm-12 col-xs-12">
+      <?php dynamic_sidebar('trucks-search-left'); ?>
+    </article>
+    <article class="col-md-6 col-sm-12 col-xs-12">
+      <?php dynamic_sidebar('trucks-search-right'); ?>
+    </article>
+  </section>
+</main>
+<section class="container">
 
 <h2>Garbage Trucks</h2>
   <!-- Carousel -->
@@ -317,6 +326,6 @@
 </div>
 <!--/.Carousel Wrapper-->
 
-</main>
+</section>
 
 <?php get_footer(); ?>

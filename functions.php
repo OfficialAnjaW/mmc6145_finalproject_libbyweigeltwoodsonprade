@@ -508,6 +508,28 @@
         'before_title'  => '<h3 class="about-main-widget-title">',
         'after_title'   => '</h3>'
     ));
+
+    // Widget Area: Trucks search
+    register_sidebar(array(
+        'name'          => ('Trucks Search Left'),
+        'id'            => 'trucks-search-left',
+        'description'   => 'Trucks Search Left Widget',
+        'before_widget' => '<div class="widget-trucks-search-left">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="trucks-search-left-title">',
+        'after_title'   => '</h3>'
+    ));
+
+    // Widget Area: Trucks search
+    register_sidebar(array(
+        'name'          => ('Trucks Search Right'),
+        'id'            => 'trucks-search-right',
+        'description'   => 'Trucks Search Right Widget',
+        'before_widget' => '<div class="widget-trucks-search-right">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="trucks-search-right-title">',
+        'after_title'   => '</h3>'
+    ));
   }
 
   add_action('widgets_init', 'blank_widgets_init');
