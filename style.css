@@ -601,7 +601,7 @@ input#submit:hover {
   text-align: center;
 }
 .carousel-inner {
-  max-height: 320px;
+  max-height: 340px;
   overflow: hidden;
   margin: 10px;
 }
