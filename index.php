@@ -11,10 +11,10 @@ get_header(); ?>
       if(have_posts()){
         while(have_posts()){
           the_post(); ?>
-            <div class="col-md-4">
+            <div class="col-md-4 carousel-tile">
               <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               <p>Category: <?php the_category(); ?></p>
-              <?php the_post_thumbnail('medium'); ?>
+              <?php the_post_thumbnail('thumbnail'); ?>
               <?php the_excerpt(); ?>
                 <?php
                   $archive_year = get_the_time('Y');
@@ -24,6 +24,7 @@ get_header(); ?>
 
               <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>
               <p><?php echo "Article written by: " . get_the_author(); ?></p>
+              <a class="btn btn-primary" href="<?php the_permalink(); ?>">Learn More</a>
             </div>
       <?php
         }// end while
