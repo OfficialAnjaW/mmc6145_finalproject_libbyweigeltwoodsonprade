@@ -5,7 +5,7 @@
     </section>
 
     <section class="row justify-content-center product-entry-spacing">
-      <article class="col-lg-8 col-md-7 col-12">
+      <article class="col-lg-8 col-md-8 col-12">
         <div>
           <?php
             if(have_posts()) {
@@ -21,7 +21,7 @@
           ?>
         </div>
       </article>
-      <article class="col-lg-4 col-md-5 col-12">
+      <article class="col-lg-4 col-md-4 col-12">
         <?php
           if(have_posts()) {
             while(have_posts()){

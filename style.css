@@ -622,15 +622,14 @@ input#submit:hover {
   color: white;
 }
 /* ========================== Single Truck_types styles ==================== */
-
 .single-trucks-img img {
   max-width: 300px;
   object-fit: contain;
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 550px) {
   .single-trucks-img img {
-    max-width: 450px;
+    max-width: 400px;
     object-fit: contain;
   }
 }
