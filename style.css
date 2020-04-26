@@ -605,10 +605,8 @@ input#submit:hover {
 .red {
   background-color: #bc2525;
   color: white;
+  padding: 15px;
 }
-.trucks-search-left-title {
-  color: white;
-}
-.trucks-search-left-title {
+.trucks-search-left-title, .trucks-search-right-title {
   color: white;
 }

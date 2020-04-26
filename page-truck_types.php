@@ -6,8 +6,10 @@
  ?>
 
 <?php get_header(); ?>
-<main class="container red">
-  <?php dynamic_sidebar('trucks-hero-image'); ?>
+
+<?php dynamic_sidebar('trucks-hero-image'); ?>
+
+<main class="container-fluid red">
   <section class="row">
     <article class="col-md-6 col-sm-12 col-xs-12">
       <?php dynamic_sidebar('trucks-search-left'); ?>
