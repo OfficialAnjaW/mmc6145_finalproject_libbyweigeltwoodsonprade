@@ -5,7 +5,7 @@
     </section>
 
     <section class="row justify-content-center product-entry-spacing">
-      <article class="col-lg-7 col-md-7 col-12">
+      <article class="col-lg-7 col-md-12 col-12">
         <div>
           <?php
             if(have_posts()) {
@@ -49,7 +49,7 @@
           ?>
         </div>
       </article>
-      <article class="col-lg-5 col-md-5 col-12">
+      <article class="col-lg-5 col-md-12 col-12">
         <?php dynamic_sidebar('single-truck-sidebar'); ?>
       </article>
   </section>
