@@ -530,22 +530,54 @@ function create_post_type(){
       'menu_icon'             => 'dashicons-art',
       'supports'              => array('title','editor', 'thumbnail'),
     ));
-    register_post_type('dump_trucks',
-      array(
-        'labels'          => array(
-          'name'          => ('Dump Trucks'),
-          'singular name' => ('Dump Truck')
-        ),
-        'public'                => true,
-        'has_archive'           => true,
-        'show_in_menu'          => true,
-        'show_in_nav_menus'     => true,
-        'show_in_admin_bar'     => true,
-        'menu_position'         => 4,
-        'can_expost'            => true,
-        'menu_icon'             => 'dashicons-art',
-        'supports'              => array('title','editor', 'thumbnail'),
-      ));
+  register_post_type('dump_trucks',
+    array(
+      'labels'          => array(
+        'name'          => ('Dump Trucks'),
+        'singular name' => ('Dump Truck')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    ));
+  register_post_type('grapple_trucks',
+    array(
+      'labels'          => array(
+        'name'          => ('Grapple Trucks'),
+        'singular name' => ('Grapple Truck')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    ));
+  register_post_type('other_trucks',
+    array(
+      'labels'          => array(
+        'name'          => ('Other Trucks'),
+        'singular name' => ('Other Truck')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    ));
 }
 
 add_action('init', 'create_post_type');
