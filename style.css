@@ -85,14 +85,14 @@ header img {
   object-fit: contain;
 }
 
-.widget-header-contact a {
+/* .widget-header-contact a {
   color: #bc2525;
   text-decoration: none;
-}
+} */
 
-.widget-header-contact a:hover {
+/* .widget-header-contact a:hover {
   color: #0c005a;
-}
+} */
 
 /* Navigation Menu */
 
@@ -166,6 +166,10 @@ footer label {
   border: solid 2px #0c005a;
   border-radius: 5px;
   background: #ffffff;
+}
+
+.widget-left-footer {
+  padding: 5% 0;
 }
 
 /* ======================
@@ -356,7 +360,7 @@ h5.card-title {
 
 .services-section {
   background: #0c005a;
-  padding: 1% 5%;
+  padding: 3% 5%;
 }
 
 .widget-homepage-services-title {
@@ -365,7 +369,7 @@ h5.card-title {
 }
 
 .container-fluid.services-section {
-  margin: 7% auto;
+  margin: 7% 0;
   text-align: center;
 }
 
