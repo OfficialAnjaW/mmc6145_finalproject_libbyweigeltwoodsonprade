@@ -593,3 +593,18 @@ input#submit:hover {
   max-width: 250px;
   padding: 20px 0;
 }
+@media (max-width: 600px) {
+  .carousel-item {
+    display: block !important;
+    position: static !important;
+    margin: 0 !important;
+    float: none !important;
+    transition: none;
+  }
+  .controls-top {
+      display: none;
+  }
+  .carousel-item img {
+      display: none;
+  }
+}
