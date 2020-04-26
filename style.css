@@ -592,6 +592,11 @@ input#submit:hover {
   margin-top: 20px;
   text-align: center;
 }
+.carousel-inner {
+  max-height: 320px;
+  overflow: hidden;
+  margin: 10px;
+}
 .carousel-item {
   height: 450px;
 }
@@ -601,18 +606,11 @@ input#submit:hover {
   max-width: 250px;
   padding: 20px 0;
 }
-@media (max-width: 600px) {
-  .carousel-item {
-    display: block !important;
-    position: static !important;
-    margin: 0 !important;
-    float: none !important;
-    transition: none;
-  }
-  .controls-top {
-      display: none;
-  }
-  .carousel-item img {
-      display: none;
-  }
+.red {
+  background-color: #bc2525;
+  color: white;
+  padding: 15px;
+}
+.trucks-search-left-title, .trucks-search-right-title {
+  color: white;
 }

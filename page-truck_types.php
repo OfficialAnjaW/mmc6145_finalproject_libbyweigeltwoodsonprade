@@ -9,8 +9,20 @@
 
 <?php dynamic_sidebar('trucks-hero-image'); ?>
 
-<main class="container heading">
+<!-- ====================== Search Area ====================== -->
+<main class="container-fluid red">
+  <section class="row">
+    <article class="col-md-6 col-sm-12 col-xs-12">
+      <?php dynamic_sidebar('trucks-search-left'); ?>
+    </article>
+    <article class="col-md-6 col-sm-12 col-xs-12">
+      <?php dynamic_sidebar('trucks-search-right'); ?>
+    </article>
+  </section>
+</main>
+<section class="container">
 
+<!-- ====================== Start Garbage Trucks Carousel ====================== -->
 <h2>Garbage Trucks</h2>
   <!-- Carousel -->
   <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
@@ -86,10 +98,11 @@
 
 </div>
 <!--/.Carousel Wrapper-->
+<!-- ====================== End Garbage Trucks Carousel ====================== -->
 
 
-<!-- Carousel -->
 
+<!-- ====================== Start Dump Trucks Carousel ====================== -->
 <h2>Dump Trucks</h2>
 <div id="type-carousel-2" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
@@ -164,10 +177,14 @@
 
 </div>
 <!--/.Carousel Wrapper-->
+<!-- ====================== End Dump Trucks Carousel ====================== -->
+
+
+<!-- ====================== Start Grapple Trucks Carousel ====================== -->
 
 <h2>Grapple Trucks</h2>
   <!-- Carousel -->
-  <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
+  <div id="type-carousel-3" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -233,17 +250,20 @@
 
   <!--Controls-->
   <div class="controls-top">
-    <a class="btn btn-primary" href="#type-carousel" data-slide="prev"><</a>
-    <a class="btn btn-primary" href="#type-carousel" data-slide="next">></a>
+    <a class="btn btn-primary" href="#type-carousel-3" data-slide="prev"><</a>
+    <a class="btn btn-primary" href="#type-carousel-3" data-slide="next">></a>
   </div>
   <!--/.Controls-->
 
 </div>
-<!--/.Carousel Wrapper-->
+<!-- ====================== End Grapple Trucks Carousel ====================== -->
+
+
+<!-- ====================== Start Other Trucks Carousel ====================== -->
 
 <h2>Other Trucks</h2>
   <!-- Carousel -->
-  <div id="type-carousel" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
+  <div id="type-carousel-4" class="carousel type-carousel-wrapper slide" data-ride="carousel" data-interval="3000">
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -309,14 +329,14 @@
 
   <!--Controls-->
   <div class="controls-top">
-    <a class="btn btn-primary" href="#type-carousel" data-slide="prev"><</a>
-    <a class="btn btn-primary" href="#type-carousel" data-slide="next">></a>
+    <a class="btn btn-primary" href="#type-carousel-4" data-slide="prev"><</a>
+    <a class="btn btn-primary" href="#type-carousel-4" data-slide="next">></a>
   </div>
   <!--/.Controls-->
 
 </div>
-<!--/.Carousel Wrapper-->
+<!-- ====================== End Other Trucks Carousel ====================== -->
 
-</main>
+</section>
 
 <?php get_footer(); ?>
