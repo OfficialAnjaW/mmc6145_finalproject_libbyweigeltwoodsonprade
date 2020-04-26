@@ -530,6 +530,16 @@
         'before_title'  => '<h3 class="trucks-search-right-title">',
         'after_title'   => '</h3>'
     ));
+    // Widget Area: Trucks search
+    register_sidebar(array(
+        'name'          => ('Single Truck Sidebar'),
+        'id'            => 'single-truck-sidebar',
+        'description'   => 'Single Truck  Sidebar Widget',
+        'before_widget' => '<div class="widget-single-truck-sidebar">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="single-truck-sidebar-title">',
+        'after_title'   => '</h3>'
+    ));
   }
 
   add_action('widgets_init', 'blank_widgets_init');

@@ -50,7 +50,7 @@
         </div>
       </article>
       <article class="col-lg-4 col-md-4 col-12">
-
+        <?php dynamic_sidebar('single-truck-sidebar'); ?>
       </article>
   </section>
 
