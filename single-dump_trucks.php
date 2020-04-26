@@ -24,7 +24,7 @@
                 <p>Body Capacity: <?php the_field('body_capacity') ?></p>
               </div>
 
-              <div class="col-lg-6 col-md-6 col-12">
+              <div class="col-lg-6 col-md-6 col-12 fields">
                 <h5>CHASSIS SPECIFICATIONS:</h5>
                 <p>Year: <?php the_field('year') ?></p>
                 <p>Make: <?php the_field('make') ?></p>

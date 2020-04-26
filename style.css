@@ -648,6 +648,6 @@ input#submit:hover {
     object-fit: contain;
   }
 }
-.fields p:nth-child(odd) {
+.fields p:nth-child(even) {
   background-color: #eaeaea;
 }
