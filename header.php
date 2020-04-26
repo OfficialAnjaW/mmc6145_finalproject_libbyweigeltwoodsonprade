@@ -32,24 +32,14 @@
             <?php } ?>
           </div>
 
-          <div class="col-sm-6">
-            <div class="row">
+          <!-- Widget Area: Header Contact -->
+          <div class="col-sm-3 d-flex align-items-center">
+            <?php dynamic_sidebar('header-contact'); ?>
+          </div>
 
-              <div class="col-sm-6">
-                <!-- Widget Area: Header Contact -->
-                <div class="col-sm-3 d-flex align-items-center">
-                  <?php dynamic_sidebar('header-contact'); ?>
-                </div>
-              </div>
-
-              <div class="col-sm-6">
-                <!-- Widget Area: Header Social -->
-                <div class="col-sm-3 d-flex align-items-center">
-                  <?php dynamic_sidebar('header-social'); ?>
-                </div>
-              </div>
-
-            </div>
+          <!-- Widget Area: Header Social -->
+          <div class="col-sm-3 d-flex align-items-center">
+            <?php dynamic_sidebar('header-social'); ?>
           </div>
 
         </div>
