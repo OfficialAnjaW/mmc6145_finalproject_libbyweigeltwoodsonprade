@@ -623,22 +623,26 @@ input#submit:hover {
 }
 /* ========================== Single Truck_types styles ==================== */
 
-.single-trucks-img {
+.single-trucks-img img {
   max-width: 300px;
+  object-fit: contain;
 }
 
-@media (min-width:576px) {
-  .single-trucks-img {
+@media (min-width: 576px) {
+  .single-trucks-img img {
     max-width: 500px;
+    object-fit: contain;
   }
 }
-@media (min-width:768px) {
-  .single-trucks-img {
+@media (min-width: 768px) {
+  .single-trucks-img img {
     max-width: 700px;
+    object-fit: contain;
   }
 }
-@media (min-width:992px) {
-  .single-trucks-img {
+@media (min-width: 992px) {
+  .single-trucks-img img {
     max-width: 900px;
+    object-fit: contain;
   }
 }
