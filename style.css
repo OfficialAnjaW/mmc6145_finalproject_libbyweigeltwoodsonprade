@@ -38,7 +38,7 @@ h3,
 h4,
 h5 {
   font-family: 'Oswald', sans-serif;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 p {
@@ -49,6 +49,7 @@ h2,
 h3,
 h5 {
   color: #0c005a;
+  margin-top: 15px;
 }
 
 .btn-primary {
