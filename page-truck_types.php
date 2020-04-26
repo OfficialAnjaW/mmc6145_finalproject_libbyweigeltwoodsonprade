@@ -22,6 +22,14 @@
 </main>
 <section class="container">
 
+
+<!-- paralax scroll 1 here, dump truck hand code -->
+  <div class="parallax"></div>
+<!--  <div style="height:150px; background-color:#0c005a;" >
+    <h2 class="parallaxtext">Garbage Trucks</h2>-->
+  </div>
+
+
 <!-- ====================== Start Garbage Trucks Carousel ====================== -->
 <h2>Garbage Trucks</h2>
   <!-- Carousel -->
@@ -99,6 +107,13 @@
 </div>
 <!--/.Carousel Wrapper-->
 <!-- ====================== End Garbage Trucks Carousel ====================== -->
+
+
+<!-- paralax scroll 2 here, Grapple trucks hand code -------------->
+<div class="parallax4"></div>
+<!--<div style="height:150px; background-color:#0c005a;" >
+  <h2 class="parallaxtext">Grapple Trucks</h2>-->
+</div>
 
 
 
@@ -180,6 +195,13 @@
 <!-- ====================== End Dump Trucks Carousel ====================== -->
 
 
+<!-- paralax scroll 3 here, dump truck hand code -->
+<div class="parallax3"></div>
+<!--<div style="height:150px; background-color:#0c005a;" >
+  <h2 class="parallaxtext">Dump Trucks</h2>-->
+</div>
+
+
 <!-- ====================== Start Grapple Trucks Carousel ====================== -->
 
 <h2>Grapple Trucks</h2>
@@ -258,6 +280,11 @@
 </div>
 <!-- ====================== End Grapple Trucks Carousel ====================== -->
 
+<!-- paralax scroll 4 here, concrete/other trucks hand code --------------------------->
+<div class="parallax2"></div>
+<!--<div style="height:150px; background-color:#0c005a;" >
+  <h2 class="parallaxtext">All Other Truck Types</h2>-->
+</div>
 
 <!-- ====================== Start Other Trucks Carousel ====================== -->
 
