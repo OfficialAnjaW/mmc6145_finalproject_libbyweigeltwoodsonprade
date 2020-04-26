@@ -621,3 +621,24 @@ input#submit:hover {
 .trucks-search-left-title, .trucks-search-right-title {
   color: white;
 }
+/* ========================== Single Truck_types styles ==================== */
+
+.single-trucks-img {
+  max-width: 300px;
+}
+
+@media (min-width:576px) {
+  .single-trucks-img {
+    max-width: 500px;
+  }
+}
+@media (min-width:768px) {
+  .single-trucks-img {
+    max-width: 700px;
+  }
+}
+@media (min-width:992px) {
+  .single-trucks-img {
+    max-width: 900px;
+  }
+}

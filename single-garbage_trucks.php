@@ -5,15 +5,15 @@
     </section>
 
     <section class="row justify-content-center product-entry-spacing">
-      <article class="col-lg-5 col-md-6 col-12">
+      <article class="col-lg-8 col-md-6 col-12">
         <div>
           <?php
             if(have_posts()) {
               while(have_posts()){
                 the_post(); ?>
 
-              <div>
-                <?php the_post_thumbnail('medium_large'); ?>
+              <div class="single-trucks-img">
+                <?php the_post_thumbnail(); ?>
               </div>
 
             <?php  } //this ends while loop
@@ -21,7 +21,7 @@
           ?>
         </div>
       </article>
-      <article class="col-lg-7 col-md-6 col-12">
+      <article class="col-lg-4 col-md-6 col-12">
         <?php
           if(have_posts()) {
             while(have_posts()){
