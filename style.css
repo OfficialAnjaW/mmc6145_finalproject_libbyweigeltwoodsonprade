@@ -623,13 +623,19 @@ input#submit:hover {
 }
 /* ========================== Single Truck_types styles ==================== */
 .single-trucks-img img {
-  max-width: 300px;
+  max-width: 320px;
   object-fit: contain;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 768px) {
   .single-trucks-img img {
-    max-width: 400px;
+    max-width: 375px;
+    object-fit: contain;
+  }
+}
+@media screen and (min-width: 992px) {
+  .single-trucks-img img {
+    max-width: 600px;
     object-fit: contain;
   }
 }
