@@ -33,7 +33,7 @@
 
             <h5>Features</h5>
               <p class="product-features">
-                <?php the_field('features') ?>
+                <?php the_field('year') ?>
               </p>
 
           <?php  } //this ends while loop
