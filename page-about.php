@@ -10,7 +10,7 @@ Template Post Type: page
 
 
 <!-- ======================= Featured Image Function ==================-->
-    <?php the_post_thumbnail(); ?>
+  <?php the_post_thumbnail(); ?>
 
   <!--======================= start about us content post=====================------->
     <section>
