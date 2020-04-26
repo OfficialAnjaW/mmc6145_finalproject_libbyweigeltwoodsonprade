@@ -5,6 +5,8 @@ Template Post Type: page
 */
 get_header(); ?>
 
+<?php dynamic_sidebar('blog-hero-image'); ?>
+
 <div class="container carousel">
   <div class="row">
     <?php
