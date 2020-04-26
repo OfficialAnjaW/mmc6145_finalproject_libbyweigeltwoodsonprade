@@ -612,7 +612,7 @@ input#submit:hover {
   background-color: #eaeaea;
   margin: 10px;
   max-width: 250px;
-  padding: 20px 0;
+  padding: 20px 5px;
 }
 .carousel-tile h5 a {
   color: #0c005a;
