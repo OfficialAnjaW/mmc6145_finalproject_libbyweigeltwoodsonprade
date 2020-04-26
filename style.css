@@ -614,6 +614,9 @@ input#submit:hover {
   max-width: 250px;
   padding: 20px 0;
 }
+.carousel-tile h5 a {
+  color: #0c005a;
+}
 .red {
   background-color: #bc2525;
   color: white;
